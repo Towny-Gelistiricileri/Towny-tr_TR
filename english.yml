@@ -1,0 +1,1276 @@
+name: Towny
+version: 0.97
+language: english
+author: ElgarL
+website: 'http://townyadvanced.github.io/'
+description: >
+    Language file for all game messages.  Do not alter this file.
+    If you wish to change any of the entries, make a copy named something else.
+    Alternate language files can be enabled by altering the
+    [language] entry in config.yml
+
+#
+#
+#         You MUST retain spacing in the texts.
+#  If a text begins or ends with a space, it must remain that way.
+#
+#
+#      %s = data to be supplied by the plugin.
+
+# Text colouring
+# --------------
+# Black = &0, Navy = &1, Green = &2, Blue = &3, Red = &4
+# Purple = &5, Gold = &6, LightGray = &7, Gray = &8
+# DarkPurple = &9, LightGreen = &a, LightBlue = &b
+# Rose = &c, LightPurple = &d, Yellow = &e, White = &f
+
+
+default_towny_prefix: '&6[Towny] &b'
+default_town_prefix: '&6[%s] &b'
+default_nation_prefix: '&6[%s] &6'
+
+unclaimed_plot_name: 'Sahipsiz'
+unclaimed_zone_name: 'Vahşi Doğa'
+
+############################################################
+# +------------------------------------------------------+ #
+# |help messages                                         | #
+# +------------------------------------------------------+ #
+############################################################
+
+
+help_0: 'Genel Towny Yardımı'
+help_1: 'Towny eklentisi hakkında daha fazla bilgi edinmek için aşağıdaki komutları deneyin.'
+help_2: 'kasaba Sohbeti'
+help_3: 'Ulus Sohbeti'
+
+town_help_1: 'Kasaba durumu'
+town_help_2: '[Belediye Başkanı]'
+town_help_3: 'Seçilen kasabanın durumu'
+town_help_4: 'Konumunuzda bulunan kasabanın durumu.'
+town_help_5: 'Kasaba merkezine seyahat et.'
+town_help_6: 'Belediye başkanı olarak yeni bir kasaba kur.'
+town_help_7: 'Hedef oyuncu başkanlığında yeni bir kasaba kur.'
+town_help_8: 'Başkanlar için komutları listele.'
+town_help_9: 'O gün bugün!'
+town_help_10: 'Kasabadaki tüm çevrimiçi sakinleri listeler.'
+
+mayor_help_3: 'Talep alanı şehre bağlı değil'
+mayor_help_4: 'Etrafınızda X yarıçapına kadar hak iddia edin'
+mayor_help_5: 'Maksimum yarıçap için hak talebinde bulunun'
+mayor_help_6: 'Bu kasaba bloğu sahiplenilmemiş'
+mayor_help_7: 'Etrafında hak iddia etmekten vazgeçmeye çalış.'
+mayor_help_8: 'Tüm kasaba bloklarını kaldırmaya çalışın.'
+
+nation_help_1: 'Ulus durumu'
+nation_help_2: '[Ulus]'
+nation_help_3: 'Hedef ulusun durumu'
+nation_help_4: 'Tüm ulusları listele'
+nation_help_5: 'Ulusunu terk et'
+nation_help_6: 'Yeni bir ulus oluştur'
+nation_help_7: 'Kral komutlarını listele'
+nation_help_8: 'Yeni bir ulus oluştur'
+nation_help_9: 'Ulustaki tüm çevrimiçi sakinleri listele'
+
+king_help_1: 'Ulus Kral Komutları'
+king_help_2: 'İttifak oluştur.'
+king_help_3: 'Düşman İlan Et.'
+
+res_1: 'Durumunuz'
+res_2: '[Sakin]'
+res_3: 'Hedef oyuncunun durumu'
+res_4: 'Tüm aktif oyuncuları listele'
+res_5: 'yardım için'
+res_6: 'Çevrimiçi Eşleşme'
+res_7: 'Tam ad'
+
+mode_1: 'İki kasaba merkezi arasındaki haritayı göster'
+mode_2: 'Yürürken hak iddia etmeye çalış'
+mode_3: 'Yürürken hak talebini reddetmeye çalış'
+mode_4: 'Varsayılan sohbet kanalı kasaba sohbeti olarak ayarlandı'
+mode_5: 'varsayılan sohbet kanalı ulus sohbeti olarak ayarlandı'
+mode_6: 'Savaş bölgesi oluşturmak için %s öğesini düşman sınırlarına yerleştirmelisiniz.'
+
+plot_perms: 'Arsa izinleri için %s yerine %s kullan.'
+plot_perms_1: 'Arsa izinlerini kasabadan olmayanlar kullanamaz.'
+
+res_list: 'Sakinleri'
+res_sing: 'Sakin'
+mayor_sing: 'Belediye Başkanı'
+admin_sing: 'Admin'
+town_sing: 'Kasaba'
+nation_sing: 'Ulus'
+nation_plu: 'Uluslar'
+king_sing: 'Kral'
+town_plu: 'Kasabalar'
+world_plu: 'Dünyalar'
+world_sing: 'Dünya'
+
+world_help_1: 'Mevcut dünyanın durumu'
+world_help_2: '[Dünya]'
+world_help_3: 'Hedef dünyanın durumu'
+world_help_4: 'Tüm dünyaları listele'
+world_help_5: 'Bu parçayı yeniden oluştur'
+townyadmin_help_1: 'Bu kasaba bloğunu iptal et'
+townyadmin_help_2: 'Çevrenizdeki claim talebini iptal etmeye çalışın.'
+
+ta_panel_1: 'Towny Yönetici Paneli'
+ta_panel_2: 'Savaş zamanı: '
+ta_panel_3: 'Sağlık Yenilenmesi: '
+ta_panel_4: 'Dünya Mob Kaldırma: '
+ta_panel_4_1: 'Kasaba Mob Kaldırma: '
+ta_panel_5: 'Günlük Zamanlayıcı: '
+ta_panel_6: 'Ekonomi: '
+ta_panel_7: 'Banka Hesapları: '
+ta_panel_8: 'Sunucu'
+ta_panel_9: 'Hafıza: '
+ta_panel_10: 'İş Parçacığı: '
+ta_panel_11: 'Zaman: '
+
+admin_panel_1: 'Yönetici paneli'
+admin_panel_2: 'Towny''yi yeniden yükle'
+admin_panel_3: 'Yeni gün kodunu çalıştır'
+
+msg_block_claim: 'Bu kasaba bloğunu talep et'
+msg_plot_nfs: 'Satılık bir arsa al'
+msg_nfs_abr: '&e''fs'' ve ''nfs'' kısaltmaları ''forsale'' ve ''notforsale'' için kabul edildi.'
+msg_plot_fs: Bu alanı müzayedeye çıkarın.'
+
+############################################################
+# +------------------------------------------------------+ #
+# |   Messages                                           | #
+# +------------------------------------------------------+ #
+############################################################
+
+msg_buy: '&b%s için %d %s satın aldı.'
+msg_buy_resident_plot: '&b%s, %s için %s arsasını satın aldı!'
+msg_couldnt_pay_taxes: '&b%s vergi ödeyemedi ve %s kasabasından atıldı.'
+msg_couldnt_pay_plot_taxes: '&b%s vergi ödeyemedi ve bir arsanın sahipliğini kaybetti.'
+msg_payed_town_tax: '&bÖdenen kasaba vergisi'
+msg_payed_plot_cost: '&b%s içindeki %s arsa için %s ödendi'
+msg_payed_resident_tax: '&bÖdenen vatandaşlık vergisi'
+msg_bankrupt_town: ' bir kasaba olarak kalmayı göze alamazdım.'
+msg_bankrupt_nation: 'bir ulus olarak kalmayı göze alamazdım.'
+msg_nation_not_peaceful: '&bUlus barışçıl durumunu daha fazla karşılayamadı.'
+msg_nation_cant_peaceful: '&bUlusun barış ücretini karşılayamaz.'
+msg_peaceful_disabled: '&bUlus barışı küresel olarak devre dışı bırakıldı.'
+msg_you_paid: '&bBarışçıl duruma geçiş için %s ödediniz.'
+msg_nation_set_peace: '&bBaşarılı bir şekilde ulusun durumu değiştirildi.'
+msg_nation_allow_peaceful: '&bBarışçıl kalmak için ulus izinleri artık: %s'
+msg_mobremoval_world: '&bMob doğma durumu artık: %s'
+msg_mobremoval_town: '&bKasaba Moblarının ortaya çıkmasını engelleme izni: %s'
+msg_nation_peaceful: '&bUlusunuz şimdi'
+msg_tax_exempt: '&bKasaba personeli vergiden muaf.'
+msg_del_nation: '&b%s ulusu dağıldı!'
+msg_del_resident: '&b%s tüm Towny verilerini kaybetti!'
+msg_del_town: '&b%s kasabası yıkıldı!'
+msg_join_nation: '&b%s kasabası ulusa katıldı!'
+msg_join_town: '&b%s kasabaya katıldı!'
+msg_friend_add: '&b%s sizi arkadaş olarak ekledi.'
+msg_friend_remove: '&b%s sizi arkadaşları arasından çıkardı.'
+msg_removed: '&bKaldırıldı'
+msg_from_list: ' arkadaş listenden.'
+msg_to_list: ' arkadaş listenize.'
+msg_left_town: '&b%s kasabadan ayrıldı'
+msg_you_left: '&b%s kasabasını terk ettiniz.'
+msg_not_mayor: '&bSen başkan değilsin.'
+msg_not_king: '&bSen kral değilsin.'
+msg_not_mayor_ass: '&bSen başkan veya asistan değilsin.'
+msg_not_king_ass: '&bSen kral veya yardımcı değilsin.'
+msg_own_nation_disallow: '&bBunu kendi ulusuna yapamazsın.'
+msg_no_perms_claim: '&bKasabanızı genişletme izniniz yok.'
+msg_outpost_disable: '&bKarakollar kullanılamıyor.'
+msg_kicked_by: '&bKasabadan %s tarafından atıldınız.'
+msg_kicked: '&b%s tarafından %s adlı oyuncu kasabadan atıldı.'
+msg_nation_kicked_by: '&bKasaban %s tarafından ulustan atıldı.'
+msg_town_left_nation: '&bKasaban %s ulusunu terk etti.'
+msg_nation_town_left: '&b%s kasabası ulusunuzu terk etti.'
+msg_nation_ kicked: '&b%s tarafından %s adlı oyuncu ulustan atıldı.'
+msg_raised_ass: '&b%s tarafından %s asistan seviyesine yükseltildi.'
+msg_lowered_to_res_by: '&bYetkiniz %s tarafından düşürüldü.'
+msg_lowered_to_res: '&b%s tarafından %s adlı oyuncunun yetkileri düşürüldü.'
+msg_invalid_name: '&bBu adlardan hiçbiri geçerli değil.'
+msg_invited_join_town: '&b%s tarafından %s adlı oyuncu kasabaya davet edildi.'
+msg_invited_join_nation: '&b%s tarafından %s adlı oyuncu ulusa davet edildi.'
+msg_deny_invite: '&b%s davetinizi reddetti.'
+msg_invited: '&b%s seni onlara katılmaya davet etti.'
+msg_town_online: 'Kasaba çevrimiçi'
+msg_nation_online: 'Ulus Çevrimiçi'
+
+msg_allied_nations: '&b%s kasabası %s ulusuyla ittifak kurdu.'
+msg_enemy_nations: '&b%s kasabası %s ulusuyla düşman oldu.'
+msg_enemy_to_neutral: '&b%s statüsünü %s için barışçıl olarak değiştirdi.'
+msg_added_ally: '&b%s ulusunuzla ittifak kurdu.'
+msg_removed_ally: '&b%s ulusunuzla ittifakı iptal etti.'
+msg_added_enemy: '&b%s ulusunuzla düşman oldu.'
+msg_removed_enemy: '&b%s ulusunuza karşı barışçıl bir hal aldı.'
+msg_unable_ally_enemy: '&cBizi düşman olarak gördükleri için %s kasabası müttefik yapılamaz.'
+msg_deny_ally: '&b%s ittifak talebini reddetti.'
+msg_accept_ally: '&bUlus %s ittifak isteğinizi kabul etti.'
+msg_ally_req_sent: '&bİttifak talebi %s ulusuna gönderildi.'
+msg_ally_request: '&b%s kasabası bir ittifak kurmak istiyor.'
+msg_unable_ally_offline: "&cHedef ulusun belediye başkanı çevrimdışı olduğu için ittifak istenemez."
+msg_unable_ally_npc: "&cHedef ulsun belediye başkanı bir NPC olduğu için ittifak yapılamaz."
+
+msg_claimed: '&2Başarıyla toprak ele geçirildi.'
+msg_unclaimed: '&2Başarıyla arsa topraklarınızdan çıkarıldı.'
+msg_not_claimable: '&cBu alanı ele geçiremezsiniz.'
+msg_abandoned_area: '&bTerk edilmiş alan %s'
+msg_admin_unclaim_area: '&cZorla bırakılan alan %s'
+msg_abandoned_area_1: '&bKasaban bu alanı terk etti'
+msg_no_money_purchase_plot: '&cBu arsayı satın almak için yeterli paranız yok.'
+msg_town_no_money_purchase_plot: '&cKasabanızın bu arsayı talep edebilecek parası yok.'
+msg_no_funds_new_town: '&c%s burada yeni bir kasaba kurmaya gücün yetmez.'
+msg_no_funds_claim: '&cKasaba, %s kasaba bloklarını %s maliyetle talep edemez. Kasaba bankasına daha fazla para ekleyin.'
+msg_no_funds_to_buy: '&cKasaba, %s maliyetini karşılayamadığı için %s satın almaya gücü yetmiyor. Kasaba bankasına daha fazla para ekleyin.'
+msg_annexed_area: '&2Birleşik alan %s'
+msg_max_plot_own: '&c%s arsadan fazlasına sahip olamazsınız.'
+msg_max_outposts_own: '&c%s karakoldan fazlasına sahip olamazsınız.'
+msg_wait_locked: '&2Lütfen sabırlı olun, arazi yakında hazır olacak.'
+msg_no_funds_new_nation: '&cKasabanın yeni bir ulus kurmaya gücü yetmez.'
+msg_already_claimed: '&cBu arsa zaten alınmış: %s'
+msg_already_claimed_1: '&cBu arsa (%s) zaten birine ait.'
+msg_already_claimed_2: '&cBu arsa zaten talep edildi.'
+msg_too_close: '&cBu toprak başka bir kasabaya çok yakın.'
+msg_too_far: '&cBu toprak diğer kasabalardan çok uzakta.'
+msg_not_claimed: '&bBu alan (%s) için hak talebinde bulunulmadı.'
+msg_not_claimed_1: '&bBu alan için hak talebinde bulunulmadı.'
+msg_not_own_area: '&cSeçilen alanın sahibi değilsiniz.'
+msg_not_own_place: '&bBu yer kimseye ait değil.'
+msg_area_not_own: '&cBu alan size ait değil.'
+msg_area_not_recog: '&cBu alan Towny tarafından tanınmıyor.'
+msg_specify_name: '&bKasaba adını belirtin'
+msg_specify_nation_name: '&bUlus adını belirtin'
+msg_peasant_right: '&bBir köylünün belediye başkanını tahtta zorlama hakkı yoktur.'
+msg_cost_spawn: '&bKasaba merkezine ışınlanmak için %s altın ödedin.'
+msg_cost_spawn_refund: '&bKasaba merkezine ışınlanma ücreti iade edildi.'
+msg_town_spawn_warmup: '&bIşınlanmak için bekleniyor...'
+msg_town_rename_disabled: '&bKasaba yeniden adlandırma devre dışı'
+msg_town_set_name: '&b%s kasabayı %s olarak yeniden adlandırdı.'
+msg_nation_set_name: '&b%s ulusu %s olarak yeniden adlandırdı.'
+
+msg_changed_pvp: '&c%s PVP şu an, %s.'
+msg_changed_public: '&cKasabanın genel durumu artık %s.'
+msg_changed_expl: '&c%s içindeki patlamalar artık %s.'
+msg_changed_fire: '&c%s içindeki ateş koruması artık %s.'
+msg_changed_mobs: '&c%s içindeki mob doğması artık %s'
+msg_changed_taxpercent: '&cYüzdeye dayalı vergiler artık %s.'
+msg_changed_open: '&cDavetsiz katılım artık %s.'
+msg_toggle_open_on_warning: 'Uyarı: Kasaba açıksa, kasaba izinleri kapatılmalıdır. ''/town set perm off'' ve ardından ''/town set perm reset'' yazın.'
+
+msg_changed_world_setting: '%s için &c%s: %s.'
+
+msg_world_pvp: '&cBu dünyada PVP zorla açılmıştır.'
+msg_world_mobs: '&cBu dünyada Mob doğması zorla açılmıştır.'
+msg_world_expl: '&cBu dünyada Patlamalar zorla açılmıştır.'
+msg_world_fire: '&cBu dünyada Yangın zorla açılmıştır.'
+
+msg_plot_pvp: '&cPVP, Arena Bölgesinde değiştirilemez.'
+msg_plot_regen_wrong_size: '&cYenilenme yalnızca varsayılan arsa boyutu (16) olarak ayarlandığında gerçekleştirilebilir.'
+
+
+msg_reloaded: '&2Towny ayarları yeniden yüklendi.'
+msg_undo_complete: '&2Geri alma tamamlandı.'
+msg_give_total: '&b%s bonusu kazan. (Toplam: %s)'
+mag_backup_success: '&2Yedekleme başarılı.'
+msg_xx_withdrew_xx: '&b%s %s altın %s bankasından çekti.'
+msg_xx_deposited_xx: '&b%s %s altın,%s bankasına yatırdı.'
+msg_insuf_funds: '&cBu kadarına sahip değilsin.'
+msg_err_withdraw_disabled: 'Bu bankadan para çekme devre dışı!'
+msg_err_deposit_capped: 'Para yatırılamıyor. Bu banka %s ile sınırlıdır.'
+
+msg_set_town_home: '&bKasaba merkezi %s olarak değiştirdi.'
+msg_set_town_spawn: '&bkasaba doğma noktası başarı ile değiştirildi.'
+msg_set_outpost_spawn: '&bKarakol doğma noktası başarı ile değiştirildi.'
+msg_set_title: '&b%s adlı sakin %s unvanını aldı.'
+msg_set_surname: '&b%s adlı sakin %s soyadını aldı.'
+msg_clear_title_surname: '&b%s için %s soy adı silindi.'
+
+msg_clear_plot_material: '&bArsa tüm %s''lerden temizlendi.'
+
+msg_set_perms: '&bİzinleri başarıyla değiştirdi: '
+msg_set_claim: '&b%s talep edilebilirliğini %s olarak değiştirdi'
+msg_set_perms_reset: '&bTüm %s arsa izinleri başarıyla sıfırlandı.'
+
+msg_usedefault: '&bBu dünya (%s) artık varsayılan ayarları kullanıyor.'
+msg_set_wild_perms: '&b%s doğa izinleri %s olarak başarıyla değiştirildi'
+msg_set_wild_ignore: '&b%s doğa yoksayma bloklarını %s olarak başarıyla değiştirdi'
+msg_set_wild_name: '&b%s doğa adını %s olarak başarıyla değiştirdi'
+msg_set_wild_regen: '&b%s doğa yenilenmesini %s olarak başarıyla değiştirdi'
+msg_set_use_towny_on: '&bBu dünya artık Towny kurallarına uyuyor.'
+msg_set_use_towny_off: '&cBu dünya tüm Towny içi etkileşimlerden muaf.'
+
+msg_error_must_be_int: '&bDeğer bir tam sayı olmalıdır.'
+msg_error_must_be_num: '&bBir sayı olmalı.'
+msg_must_specify_amnt: '&bMiktarı belirtin. Örnek: %s 54'
+msg_town_set_tax: '&b%s günlük vatandaş vergisini %s olarak belirledi'
+msg_town_set_plottax: '&b%s arsaların günlük vergisini %s olarak belirledi'
+msg_town_set_plotprice: '&b%s arsasının fiyatını %s olarak belirledi'
+msg_town_set_alttax: '&b%s, %s arsasının günlük vergisini %s olarak belirledi'
+msg_town_set_altprice: '&b%s %s arsasının fiyatını %s olarak belirledi'
+msg_town_set_nation_tax: '&b%s ulus vergisini %s olarak ayarladı'
+
+
+msg_set_nation_tag: '&b%s, ulus etiketini [%s] olarak ayarladı'
+msg_set_town_tag: '&b%s, kasaba etiketini [%s] olarak ayarladı'
+msg_reset_nation_tag: '&b%s ulus etiketini sildi.'
+msg_reset_town_tag: '&b%s kasaba etiketini temizledi.'
+
+msg_mayor_abandon: '&bİnsanlarınızı terk etmek istediğinize emin misiniz? /Town set mayor ile yeni bir belediye başkanı seçin.'
+msg_new_day_tax: '&bYeni bir gün geldi! Vergiler ve kira tahsil edildi'
+msg_new_day: '&bYeni bir gün geldi!'
+msg_new_king: '&b%s artık %s kralı!'
+msg_err_new_king_notmayor: '&cYeni Kral bir belediye başkanı değil.'
+msg_err_king_not_in_nation: '&cYeni Kral bu ulusa ait değil.'
+msg_err_fight_like_king: '&cBarış bir seçenek değil! Kral gibi dövüş!'
+msg_no_access_nation_bank: '&cUlus bankasına erişiminiz yok.'
+msg_err_no_money: '&cBankada yeterli para yok.'
+msg_new_mayor: '&b%s artık belediye başkanı!'
+msg_new_nation: '&b%s adlı oyuncu %s adında yeni bir ulus oluşturdu'
+msg_new_town: '&b%s adlı oyuncu %s adında yeni bir kasaba oluşturdu'
+msg_plot_for_sale: '&b%s, (%s) arsasını satışa çıkardı!'
+msg_plot_set_type: '&bArsa türü %s olarak ayarlandı'
+msg_registration: '&e%s kayıt olduğun için teşekkürler!'
+msg_war_eliminated: '&6[Savaş] &b%s savaştan çıkarıldı.'
+msg_war_forfeited: '&6[Savaş] &%b%s kaybedildi.'
+msg_war_join: '&6[Savaş] &b%s savaşa katıldı!'
+msg_war_join_forced: '&6[Savaş] &b%s ülkesi küresel nedenlerden dolayı savaşa zorlandı!'
+msg_war_join_nation: '&6[Savaş] &b%s ülkesi savaşa katıldı!'
+msg_war_lose_block: '&6[Savaş]&b (%s) ait %s kaybedildi.'
+msg_war_score: '&6[Savaş] &b%s %d puan kazandı!'
+msg_war_score_nation_elim: '&6[Savaş] &b%s adlı oyuncu %s ulusunu fethettiği için %d puan aldı!'
+msg_war_score_town_elim: '&6[Savaş] &b%s adlı oyuncu %s kasabasını fethettiği için %d puan aldı! (%d kasaba bloğu ele geçirildi)'
+msg_war_score_townblock_elim: '&6[Savaş] &b%s adlı oyuncu %s kasaba bloğunu fethetti için %d puan kazandı!'
+msg_war_score_player_kill: '&6[Savaş] &b%s öldürüldü %s.(%s için %d puan)'
+msg_war_score_player_kill_defending: '&6[Savaş] &%b %s adlı oyuncu %s savunurken %s öldürdü.(%s için %d puan)'
+msg_war_king_killed: '&6[Savaş] &b%s kralı öldürüldü!'
+msg_war_mayor_killed: '&6[Savaş] &b%s belediye başkanı öldürüldü!'
+msg_war_winning_nation_spoils: '&6[Savaş]&b Kazanan Ulus: %s kazandı %s.'
+msg_war_winning_town_spoils: '&6[Savaş] &bEn Yüksek Puan: %s %s kazandı %d puanla.'
+msg_war_cannot_do: '&cDünya savaştayken bunu yapamazsınız.'
+msg_war_started: '&eBir savaş geri sayımını başlattı.'
+msg_war_ended: '&eSavaş sona erdi.'
+
+msg_enemy_war_area_under_attack: '&6[Savaş]&b %s (%s) %s tarafından saldırı altında!'
+msg_enemy_war_area_won: '&6[Savaş]&b %s (%s) kazandı (%s)!'
+msg_enemy_war_area_defended: '&6[Savaş] &b%s savundu (%s)!'
+msg_err_enemy_war_must_be_placed_above_ground: '&6[Savaş] &cBayrak sadece yere koyulabilir'
+msg_err_enemy_war_not_part_of_nation: '&6[Savaş] &cBu alan bir ulusa ait değil.'
+msg_err_enemy_war_is_peaceful: '&6[Savaş]&c %s barışçıl.'
+msg_err_enemy_war_require_online: '&6[Savaş]&c Saldırmak için %s içinde en az %d kişi çevrimiçi olmalı.'
+msg_err_enemy_war_not_on_edge_of_town: '&6[Savaş]&c Yalnızca bir kasabanın sınırlarına saldırmaya izin verilir.'
+msg_err_enemy_war_cell_already_under_attack: '&6[Savaş]&c Bu alan zaten %s tarafından saldırı altında.'
+msg_err_enemy_war_reached_max_active_flags: '&6[Savaş]&c Aynı anda %d alandan fazlasına saldıramazsınız.'
+
+msg_cache_block_error: '&cTowny tarafından kaydedilmedin. Tekrar giriş yapmayı dene.'
+msg_cache_block_error_wild: '&cDoğada %s izin verilmez.'
+msg_cache_block_error_plot: '&cArsa sahibi burada %s grubunun %s yapmasına izin vermiyor.'
+msg_cache_block_error_locked: '&cBu arazi kilitli!'
+msg_cache_block_error_town_resident: '&cSakinlerin buraya %s yapmasına izin verilmiyor.'
+msg_cache_block_error_town_allies: '&cMüttefiklerin %s yapmasına izin verilmiyor.'
+msg_cache_block_error_town_outsider: '&cYabancıların %s yapmasına izin verilmiyor.'
+
+msg_err_cant_afford_tp_town: '&c%s kasabasına ışınlanmak için yeterli paran yok!'
+msg_err_not_public: '&cBu kasaba herkese açık değil.'
+msg_err_not_open: '&c%s kasabasının kapıları herkese açık değil. Belediye başkanından veya bir asistandan açmasını isteyin.'
+msg_err_town_spawn_forbidden: '&cKasabaya seyahat yasak.'
+msg_err_town_spawn_nation_forbidden: '&cUlustaki diğer kasabalara seyahat etmek yasaktır.'
+msg_err_town_spawn_ally_forbidden: '&cUlusunuzla müttefik olan kasabalara seyahat etmek yasaktır.'
+msg_err_public_spawn_forbidden: '&cHerkese açık kasaba merkezlerine seyahat etmek yasaktır.'
+msg_err_public_spawn_enemy: '&cHerkese açık kasaba merkezlerine seyahat etmek düşmanlar için yasaktır.'
+msg_err_town_spawn_disallowed_from: '&c%s kasabasına seyahat etmeye izin verilmiyor.'
+msg_err_outpost_spawn: '&cBu kasaba için ayarlanmış karakol yok.'
+
+msg_err_cant_afford_tp: '&bKasaba merkezine ışınlanmak için yeterli altına sahip gelsin.'
+msg_err_plot_nfs: '&cBu arsa satılık değil.'
+msg_err_not_part_town: '&cSeçilen alan kasabanızın bir parçası değil.'
+msg_err_not_attached_edge: '&cSeçilen alan kenara eklenmemiş.'
+msg_err_empty_area_selection: '&cSeçilen alan geçerli bir arsa içermiyor.'
+msg_err_not_enough_blocks: '&cBu seçimi talep etmek için yeterli kasaba bloğu yok.'
+msg_err_cant_afford_blocks: '&cKasabanız %s kasaba bloklarını %s maliyetle talep edemez'
+msg_err_not_in_town_claim: '&cArsaları talep edebilmek için bir kasabaya ait olmalısın.'
+msg_err_must_belong_town: '&cBir kasabaya ait olmalısın.'
+msg_err_dont_belong_town: '&cBir kasabaya ait değilsin.'
+msg_err_dont_belong_nation: '&bBir ulusa ait değilsiniz.'
+msg_err_not_same_nation: '&b%s ulusunuza ait değil.'
+msg_err_rect_auto: '&cSadece kasaba ve bölge sakinleri otomatik kullanabilir.'
+msg_err_invalid_radius: '&cGeçersiz yarıçap. Bir tamsayı veya otomatik kullanın.'
+msg_err_not_configured: '&cBu dünya Towny tarafından yapılandırılmamış.'
+msg_err_updating_item_perms: '&cGönderilen öğeyi güncelleme izin önbelleğini kullan.'
+msg_err_updating_switch_perms: '&cHata değiştirme izinleri önbelleğini güncelleme.'
+msg_err_updating_destroy_perms: '&cHata güncelleme izinleri önbelleği.'
+msg_err_updating_build_perms: '&cYayın oluşturma izinleri önbelleğini güncelleme.'
+msg_err_admin_only: '&cYalnızca bir yönetici bu komutu kullanabilir.'
+msg_err_admin_only_delete: '&cYalnızca bir yönetici diğer yerleşik verileri silebilir.'
+msg_err_admin_only_delete_town: '&cYalnızca bir yönetici diğer kasaba verilerini silebilir.'
+msg_err_admin_only_delete_nation: '&cYalnızca bir yönetici diğer ulus verilerini silebilir.'
+msg_err_online_or_npc: '&c%s Çevrimiçi veya bir NPC.'
+msg_err_not_registered: '&cKayıtlı değilsiniz'
+msg_err_not_registered_1: '&c%s kayıtlı değil'
+msg_err_invalid_name: '&c%s geçersiz bir ad.'
+msg_err_already_res: '&c%s zaten bir kasabaya ait.'
+msg_err_already_in_town: '&c%s zaten %s kasabasının bir parçası.'
+msg_err_already_nation: '&cHedef kasaba zaten bir ulusa ait.'
+msg_err_invalid_property: '&cGeçersiz %s özelliği.'
+msg_err_not_supported: '&cHenüz desteklenmiyor.'
+msg_err_invalid_input: '&c Geçersiz giriş. %s kullan'
+msg_err_negative: '&cGirdi negatif olamaz.'
+msg_err_input_too_long: '&cGirdi çok uzun.'
+msg_err_invalid_choice: '&cGeçersiz seçim'
+msg_err_invalid_sub: '&cGeçersiz alt komut.'
+msg_err_command_disable: '&cBu komut için yeterli izniniz yok.'
+msg_err_universe_limit: '&cEvren daha fazla kasabaya sahip olamaz.'
+msg_err_too_many_npc: '&cÇok fazla npc kayıtlı.'
+msg_err_negative_money: '&cNegatif paranız olamaz.'
+msg_err_not_per yüzdesi: '&cYüzde 100''ün altında olmalıdır.'
+msg_err_no_economy: '&cEkonomi bulunamadı.'
+msg_err_not_block_type: '&cBu geçerli bir arsa türü değil!'
+msg_not_allowed_join: '&c%s''nin bir kasabaya katılmasına izin verilmiyor.'
+msg_offline_no_join: '&c%s is offline but using permissions so can''t join a town.'
+msg_err_warzone_cannot_edit_material: '&cWarzone içinde %s %s olamaz.'
+msg_err_warzone_cannot_use_switches: '&cWarzone''da anahtarlar kullanılamaz.'
+msg_err_warzone_cannot_use_item: '&cBu öğeyi bir savaş alanında kullanamazsınız.'
+msg_err_cannot_perform_action: '&cBu eylemi %s içinde gerçekleştiremezsiniz.'
+msg_npc_flag: '&bNPC bayrağı artık %s için %s.'
+
+# WarFlag Ekonomisi
+msg_enemy_war_purchased_warflag: '&6[Savaş] &cSaldırmak için %s ücret ödediniz.'
+msg_enemy_war_area_won_pillage: '&6[Savaş] &c%s %s %s''den yağmalandı.'
+msg_enemy_war_area_won_rebuilding: '&6[Savaş] &c%s, yeniden oluşturmak için %s için %s ödedi.'
+msg_enemy_war_area_won_rebuilding_err: 'Yeniden inşa etmeye yardımcı olmak için %s %s ödemeniz yeterli değil.'
+msg_enemy_war_area_won_rebuilding_err_global: '%s %s değerini ödeyemedi. %s üzerindeki saldırı iptal edildi.'
+msg_err_insuficient_funds_warflag: 'Bir warflag yerleştirmek için %s gerekiyor.'
+msg_err_insuficient_funds_future: '%s için ödemeniz gerektiğinden %s gerekiyor.'
+name_defended_attack: 'savunma saldırısı'
+name_rebuilding: 'yeniden yapılanma'
+msg_enemy_war_area_defended_attacker: '&6[Savaş] &cBaşarısız saldırınız için %s %s ödemek zorunda kaldınız.'
+msg_enemy_war_area_defended_defender: '&6[Savaş] &c%s başarısız saldırı için %s ödedi.'
+msg_enemy_war_area_defended_greater_forces: '&6[Savaş] &cBaşarısız saldırınız size %s altına mal oldu.'
+
+msg_warning_delete: '& 4 *** UYARI, %s ALTIN EKSİKLİĞİ NEDENİYLE BİR SONRAKİ YENİ GÜNDE SİLİNECEK ***'
+
+# Bu mesajlar yalnızca kasaba / ulus oluşturma yalnızca yöneticilere ayarlanmışsa kullanılır
+
+msg_admin_only_create_nation: '&cSadece yöneticilerin ulus oluşturmasına izin verilir.'
+msg_admin_only_create_town: '&cYalnızca yöneticilerin kasaba oluşturmasına izin verilir.'
+
+# Sakinlerin bir ulusun parçası olmaları zorunludur
+msg_err_not_enough_residents_new_nation: '&cKasabanızın bir ulus oluşturmak için yeterli sakini yok.'
+msg_err_not_enough_residents_join_nation: '&b%s kasabasında bir ulusa katılmak için yeterli sakin yok.'
+msg_not_enough_residents_no_longer_capital: '&bUlusun eski başkentinde artık ulusun başkenti olmak için yeterli sakin yok. Ulusun yeni başkenti %s.'
+msg_town_not_enough_residents_left_nation: '&b%s kasabasında artık bir ulusun üyesi olmak için yeterli sakin yok ve ulustan çıkarıldı.'
+msg_nation_disbanded_town_not_enough_residents: '&b%s kasabasında artık ulusu yönetecek kadar sakin yok, ulus dağılmaya zorlandı.'
+msg_not_enough_residents_refunded: '&bYou have been refunded $%s for your nation being disbanded due to not having enough residents.'
+msg_not_enough_residents_capital: '&b%s kasabasında ulusun başkenti olmak için yeterli sakin yok.'
+
+list_page: '&bSayfa %s / %s'
+list_err_not_enough_pages: '&cSadece %s sayfa var'
+
+# 0.30'da eklendi
+msg_war_a_player_has_no_town: '&6[Savaş] &fSavaştaki oyunculardan birinin kasabası yok ve Savaş Etkinliği sırasında müdahale edemez.'
+msg_war_a_player_has_no_nation: '&6[Savaş] &fSavaştaki oyunculardan birinin ulusu olmayan bir kasabası var ve Savaş Etkinliği sırasında müdahale edemez.'
+msg_war_a_player_has_a_neutral_nation: '&6[Savaş] &fSavaştaki oyunculardan biri tarafsız bir ulusun parçası ve Savaş Etkinliği sırasında müdahale edemez.'
+msg_war_a_player_has_been_removed_from_war: '&6[Savaş] &fSavaştaki oyunculardan biri, Savaş Olayına müdahale edemeyen bir kasabanın parçasıdır.'
+msg_war_a_player_is_an_ally: '&6[Savaş] &fSavaştaki oyunculardan biri diğerini müttefik olarak görüyor.'
+
+msg_war_player_cant_be_jailed_plot_fallen: '&6[Savaş] &fOyuncu hapse atılamadı, hapishanede 0hp var.'
+
+# 0.31'de eklendi
+msg_err_tax_minimum_not_met: 'Kasaba verginizi %s değerinin altına ayarlayamazsınız.'
+
+msg_unknown_rank_available_ranks: 'Bilinmeyen rütbe %s. İzin verilen rütbeler %s.'
+msg_no_permission_to_give_rank: 'Bu rütbeyi verme izniniz yok.'
+msg_you_have_been_given_rank: '%s %s rütbesini aldınız.'
+msg_you_have_given_rank: '%s %s rütbesini %s adlı sakine verdiniz.'
+msg_resident_not_your_town: 'Bu oyuncu kasabanın bir üyesi değil!'
+msg_resident_already_has_rank: '%s %s rütbesine zaten sahip.'
+msg_you_have_had_rank_taken: '%s %s rütbesinden düştünüz.'
+msg_you_have_taken_rank_from: '%s %s derecesini %s kişisinden kaldırdınız.'
+msg_resident_doesnt_have_rank: '%s bu %s rütbesine sahip değil.'
+
+msg_town_has_no_jails: 'Kasabada ayarlanmış hapishane yok.'
+msg_no_permission_to_jail_your_residents: 'Kendi sakinlerinizi hapse atma izniniz yok.'
+msg_resident_not_part_of_any_town: 'Bu oyuncu hiçbir kasabanın parçası değil.'
+msg_player_not_jailed_in_your_town: 'Bu oyuncu kasabanızda hapse atılmadı.'
+msg_cannot_spawn_while_jailed: 'Hapisteyken doğamaz.'
+msg_cannot_abandon_town_while_jailed: 'Hapse atıldığında kasabayı terk etmene izin verilmez.'
+msg_player_escaped_jail_by_leaving_town: '%s bir göçebe olarak hapisten kaçtı.'
+msg_set_jail_spawn: 'Hapishane planı başarılı bir şekilde ayarlandı.'
+msg_killed_attempting_to_escape_jail: '&4%s hapisten kaçmaya çalışırken öldürüldü.'
+msg_err_jailed_players_no_teleport: '&4Mahkum tutulan oyuncular ışınlanamaz!'
+msg_player_escaped_jail_into_wilderness: '&4%s isimli kişi %s içine girerek hapishaneden kaçtı'
+
+msg_err_invalid_string_Pano_not_set: 'Geçersiz dize, Kasaba Panosu ayarlanmadı.'
+
+msg_plot_name_removed: 'Arsa adı kaldırıldı.'
+msg_plot_name_set_to: 'Arsa adı [%s] olarak ayarlandı.'
+msg_plot_price_too_expensive: 'Arsa fiyatı çok pahalı.'
+
+msg_you_robbed_player: '%s, %s altın soydunuz.'
+msg_player_robbed_you: '%s sizi %s altın soydu.'
+msg_you_lost_money: 'Öldüğün için %s altın kaybettin.'
+msg_player_couldnt_pay_player_town_bank_paying_instead: '%s adlı oyuncunun kesesi %s için tatmin edici değildi. %s kasaba bankasından alındı.'
+
+msg_err_wartime_could_not_take_deathfunds: 'Savaş zamanı ölüm fonları alınamadı.'
+msg_err_could_not_take_deathfunds: 'Ölüm fonu alınamadı.'
+msg_you_lost_money_dying: '%s kaybettiniz.'
+msg_your_town_lost_money_dying: 'Kasabanız %s altın kaybetti.'
+msg_your_nation_lost_money_dying: 'Ülken %s altın kaybetti.'
+msg_err_couldnt_take_deathfunds: 'Ölüm fonu alınamadı.'
+msg_err_couldnt_take_town_deathfunds: 'Kasaba ölüm fonları alınamadı.'
+msg_err_couldnt_take_nation_deathfunds: 'Ulus ölüm fonları alınamadı.'
+msg_you_gained_money_for_killing: '%s adlı oyuncuyu öldürdüğün için %s altın kazandın.'
+
+msg_err_ender_pearls_disabled: '&4Ender incisi devre dışı bırakıldı!'
+msg_err_no_sleep_in_enemy_inn: '&4Bir düşmanın Hanında uyuyamazsın.'
+msg_err_cant_use_bed: '&4Bu yatağın bulunduğu araziye sahip değilsiniz ve ya bu bir Han arsası değil.'
+
+msg_war_seeding_spoils_with: '&6[Savaş]&f %s ile savaş ganimeti oluşturma'
+msg_war_total_seeding_spoils: '&6[Savaş] &fBu savaş için toplam savaş ganimeti: %s'
+msg_war_activate_war_hud_tip: '&6[Savaş] &fSavaş arayüzünü etkinleştirmek için /towny war hud kullanın.'
+msg_war_town_under_attack: 'Kasabanız saldırı altında!'
+msg_war_nation_under_attack: 'Ulusun saldırı altında!'
+msg_war_nations_ally_under_attack: 'Ulusunuzun müttefiki %s saldırı altında!'
+msg_war_homeblock_under_attack: 'Kasabanızın merkezi saldırı altında!'
+msg_war_nation_member_homeblock_under_attack: 'Ulus üyeniz %s''nin merkezi saldırı altında!'
+msg_war_nation_ally_homeblock_under_attack: 'Ulusunuzun müttefiki %s''nin merkezi saldırı altında!'
+msg_war_town_ran_out_of_money: 'Kasabanız savaşta kendini destekleyecek paraları tüketti.'
+msg_war_town_lost_money_townblock: 'Kasabanız %s kaybetti.'
+msg_war_jailbreak: '&6[Savaş] &f%s''de jailbreak yapıldı, %s mahkumlar kaçıyor!'
+msg_war_town_removed_from_war_titlemsg: 'Kasabanız savaştan çıkarıldı'
+msg_war_nation_removed_from_war_titlemsg: 'Ulusunuz savaştan çıkarıldı'
+msg_war_append_townblocks_fallen: 'Kasaba blokları düştü'
+
+msg_town_plots_revenue_disclaimer: '&aGösterilen gelir tahminidir ve arsa sahibinin ödeyip ödeyemeyeceği bir faktördür.'
+msg_town_set_perm_syntax_error: 'Bu komut için geçersiz kelime kombinasyonu. Bkz. ''/Town set perm?'' Doğru komut sözdizimi için.'
+msg_plot_set_perm_syntax_error: 'Bu komut için geçersiz kelime kombinasyonu. Bkz. ''/Plot set perm?'' Doğru komut sözdizimi için.'
+
+# 0.32'de eklendi
+msg_err_townadmintownrank_wrong_town: 'Bu oyuncu o kasabaya ait değil.'
+msg_err_resident_already_an_outlaw: 'Bu oyuncu kasabanız tarafından zaten bir kanun kaçağı olarak kabul ediliyor.'
+msg_err_not_outlaw_in_your_town: 'Bir kasaba üyesini kanun kaçağı olarak ayarlayamazsın.'
+msg_you_have_been_declared_outlaw: '%s içinde bir kanun kaçağı ilan edildin. O kasabada ölü yakalanmayın.'
+msg_you_have_declared_an_outlaw: '%s %s içinde bir kanun kaçağı ilan edildin.'
+msg_you_have_been_undeclared_outlaw: 'Artık %s içinde bir kanun kaçağı değilsiniz.'
+msg_you_have_undeclared_an_outlaw: '%s artık %s içinde bir kanun kaçağı değil.'
+msg_err_player_not_an_outlaw: 'Bu oyuncu bir kanun kaçağı olarak listelenmedi.'
+msg_err_outlaw_in_open_town: 'Seni kanun kaçağı olarak kabul eden açık bir kasabaya katılamazsın.'
+msg_you_are_an_outlaw_in_this_town: '&4Dikkat et %s sizi bir kanun kaçağı olarak görüyor, burada ölmek hapse girmek demek olabilir.'
+msg_err_town_not_close_enough_to_nation: '%s''nin evi, başkentinizin ana bloğuna ulusunuza katılacak kadar yakın değil.'
+msg_nation_town_moved_their_homeblock_too_far: '%s''nin ana bloğu, ulusunuzun başkentinin ana bloğundan çok uzağa taşındı ve ulusunuzdan kaldırıldı.'
+
+# 0.33'de eklendi
+msg_err_invalid_radius_number: '&cGeçersiz yarıçap miktarı. %s veya daha az olmalıdır.'
+
+# 0.34'de eklendi
+msg_err_max_residents_per_town_reached: '&cMaksimum vatandaş sayısına (%s) zaten ulaşıldı.'
+
+# 0.35'de eklendi
+msg_err_resident_doesnt_meet_invite_cooldown: '&c%s oyuncusu sunucuda bir kasabaya davet edilmek için yeterince aktif olmadı.'
+msg_cant_toggle_pvp_outsider_in_town: 'Kasabanızda bir yabancı var, pvp durumunuzu değiştiremezsiniz!'
+msg_err_unclaim_not_outpost: 'Talep reddedilemiyor, bu arsa bir karakol değil!'
+outpost_plu: 'Karakollar'
+
+# 0.36'da eklendi
+msg_err_not_enough_residents: 'Bu kasabada bunu yapmak için yeterli sakin yok.'
+
+# 0.37'de eklendi
+msg_err_friendly_fire_disable: 'Dost ateşi devre dışı!'
+
+# 0.38'de eklendi
+msg_claim_error: '&cDiğer bir eklenti (%s) / (%s) arsa hak talebini durdurdu, işlemi tamamlanamadı.'
+
+# 0.39'da eklendi
+msg_err_town_spawn_forbidden_war: '&cIşınlanmaya sadece savaş sırasında izin verilir.'
+msg_err_town_spawn_forbidden_peace: '&ccIşınlanma savaş sırasında yasaktır.'
+msg_err_town_spawn_nation_forbidden_war: '&cUlusunuzdaki diğer kasabalara ışınlanmaya yalnızca savaş sırasında izin verilir.'
+msg_err_town_spawn_nation_forbidden_peace: '&cSavaş sırasında ülkenizdeki diğer kasabalara ışınlanmak yasaktır.'
+msg_err_town_spawn_ally_forbidden_war: '&cUlusunuzdaki müttefik kasabalara ışınlanmaya yalnızca savaş sırasında izin verilir.'
+msg_err_town_spawn_ally_forbidden_false: '&cUlusunuzla müttefik kasabalara ışınlanmak savaş sırasında yasaktır.'
+msg_err_public_spawn_forbidden_war: '&cDiğer kasabalara ışınlanmaya sadece savaş sırasında izin verilir.'
+msg_err_public_spawn_forbidden_peace: '&cHalka açık kasabalara ışınlanmak savaş sırasında yasaktır.'
+
+# 0.40'da eklendi
+mayor_help_9: 'Karakolu topraklar arasından çıkarmayı dener'
+
+# 0.41'de eklendi (Davet Güncelleme)
+invite_plu: 'Davetler'
+invite_sent_by: 'Gönderen Davet Et'
+invite_help_1: 'Bir kasabaya katılma davetini kabul et'
+invite_help_2: 'Bir kasabaya davet etmeyi reddet'
+invite_help_3: 'Tüm davetlerinizi listeleyin'
+town_invite_help_1: 'Kasabanıza bir oyuncu davet edin'
+town_invite_help_2: 'Bir oyuncuya gönderilen daveti iptal et'
+town_invite_help_3: 'Gönderilen tüm davetlerinizi listeler'
+town_invite_help_4: 'Aldığınız tüm davetiyeleri listeler'
+town_invite_help_5: 'Bir ulusa katılma talebini kabul et'
+town_invite_help_6: 'Bir ulusa katılma talebini reddet'
+nation_invite_help_1: 'Ulusunuza bir kasaba davet edin'
+nation_invite_help_2: 'Bir kasabaya gönderilen daveti iptal et'
+nation_invite_help_3: 'Kasabalara gönderilen tüm davetleri listele'
+nation_ally_help_1: 'Ulusunuza bir müttefik eklemeye çalışın'
+nation_ally_help_2: 'Ulustaki bir müttefiği çıkarmaya çalış'
+nation_ally_help_3: 'Gönderdiğiniz tüm müttefik isteklerini listeler'
+nation_ally_help_4: 'Aldığınız tüm müttefik taleplerini listeler'
+nation_ally_help_5: 'Bir ulusa müttefik olma isteğini kabul et'
+nation_ally_help_6: 'Bir ulusun müttefik olma isteğini reddet'
+nation_ally_help_7: 'Bir müttefik isteğini iptal et'
+msg_err_player_no_invites: '&cHiçbir davetiniz yok!'
+msg_err_player_has_multiple_invites: '&cBirden fazla davetiniz var, lütfen belirtin!'
+msg_err_player_has_too_many_invites: '%s çok fazla davet etti, tekrar davet etmeden önce bazılarını reddetmelerini isteyin.'
+msg_err_player_already_invited: '&b%s adlı kişiyi kasabanınize katılmaya zaten davet ettiniz!'
+msg_err_town_no_invites: '&bKasabaya gelen davetiye yok!'
+msg_err_town_specify_invite: '&cLütfen davetinizi belirtin!'
+msg_err_town_has_too_many_invites: '&bKasaba %s çok fazla davet etti, tekrar davet etmeden önce bazılarını reddetmelerini isteyin.'
+msg_err_town_sent_too_many_invites: '&bKasaba çok fazla davet gönderdi, tekrar denemeden önce bazılarını iptal et!'
+msg_err_town_already_invited: '&b%s ülkenize katılmaya zaten davet edildi!'
+msg_err_nation_specify_invite: '&cLütfen talebi belirtin!'
+msg_err_nation_no_requests: '&bUlusun herhangi bir müttefiki isteği yok!'
+msg_err_nation_sent_too_many_invites: '&bUlus çok fazla davet gönderdi, tekrar denemeden önce bazılarını iptal et!'
+msg_err_nation_sent_too_many_requests: '&bUlus çok fazla istek gönderdi, tekrar denemeden önce bazılarını iptal edin!'
+msg_err_nation_has_too_many_requests: '&bUlus %s çok fazla istek aldı, tekrar göndermeden önce bazılarını reddetmelerini isteyin.'
+player_received_invites: '&b%a/%m davetiyesi aldınız.'
+town_revoke_invite: '&bKasaba %s davetinizi iptal etti.'
+town_revoke_invite_successful: '&bKasaba davetini başarıyla iptal ettiniz.'
+town_received_invites: '&bKasaba %a/%m davet aldı.'
+town_sent_invites: '&bKasaba %a/%m davet gönderdi.'
+nation_revoke_invite: '&bUlus %s onlara katılma davetinizi reddetti'
+nation_revoke_invite_successful: '&bUlusuna katılma davetini başarıyla iptal ettin.'
+nation_revoke_ally: '&bUlus %s müttefik talebinizi iptal etti.'
+nation_revoke_ally_successful: '&bBir müttefik talebini başarıyla iptal ettin.'
+nation_received_requests: '&bUlus %a/%m müttefik isteği aldı.'
+nation_sent_invites: '&bUlus %a/%m davet gönderdi.'
+nation_sent_ally_requests: '&bUlus %a/%m müttefik isteği gönderdi.'
+no_confirmations_open: '&cOnaylayacak hiçbir şeyiniz yok!'
+success_cancel: '&cEylem iptal edildi veya zaman aşımına uğradı!'
+success_deny: '&bDavetiye başarıyla reddedildi.'
+success_deny_request: '&bMüttefik isteği başarıyla reddedildi.'
+msg_ally_removed_successfully: '&bMüttefik başarıyla kaldırıldı.'
+town_deleted_by_admin: '&bKasaba %s başarıyla silindi'
+nation_deleted_by_admin: '&bUlus %s başarıyla silindi'
+are_you_sure_you_want_to_continue: 'Devam etmek istediğinizden emin misiniz?'
+you_have_been_invited_to_join: 'Katılmaya davet edildiniz'
+you_have_been_requested_to_ally: 'Sizden müttefik olmanız istendi'
+this_message_will_expire: 'Bu işlem 20 saniye içinde otomatik olarak sona erecek'
+player_sing: 'Oyuncu'
+nation_zone_this_area_under_protection_of: '%s''nin bu kısmı %s''nin koruması altında'
+
+# 0.42'de eklendi
+you_have_been_invited_to_join2: '%s ona katılman için bir davetiye yolladı'
+you_have_been_requested_to_ally2: '%s müttefiki olman için bir davetiye yolladı'
+
+# 0.43'de eklendi
+town_help_11: 'Yeni bir kasaba oluştur. Boşluk değil, ''_'' kullanın.'
+changing_plot_town: '&bKasaba arsasını başarıyla %s olarak değiştirdiniz!'
+not_standing_in_plot: 'Geçerli bir arsanın içinde durmuyorsun!'
+msg_err_homeblock_has_not_been_set: 'Ev Bloğu ayarlanmadı, önce /town set homeblock kullanın.'
+msg_err_spawn_not_within_homeblock: '/spawn kasaba merkezi içinde değil, önce /town set homeblock kullanın.'
+
+# 0.44'de eklendi
+# TownyChat dil dizeleri
+tc_err_invalid_command: 'Hata: Geçersiz komut!'
+tc_settings_reloaded: '[TownyChat] Ayarlar yeniden yüklendi!'
+tc_err_unrecognized_command_format: 'Hata: tanınmayan komut biçimi!'
+tc_channel_list_status: '(Durum)'
+tc_channel_list_in: 'Giriş'
+tc_channel_list_out: 'Çıkış'
+tc_err_you_dont_have_perm_mute_list: 'Susturulmuş listesini görme izniniz yok'
+tc_err_you_dont_have_unmute_perm: 'Susturma izinleriniz yok'
+tc_err_no_channel_called_channel: '&f%s adında kanal yok'
+tc_err_no_muted_players_in_channel_players: '&f%s içinde susturulmuş oyuncu yok'
+tc_players_muted_in_channel: '[TownyChat] &f%n &2players muted in &f%s&2: &f%s'
+tc_err_no_online_players_with_name: '&f%s adında çevrimiçi oyuncu yok'
+tc_err_you_dont_have_mute_perms: 'Susturma izniniz yok'
+tc_err_you_cant_mute_admin: 'Bir Towny yöneticisini susturamazsınız.'
+tc_err_you_cant_mute_chat_mod: 'Bir sohbet moderatörünü susturamazsınız.'
+tc_player_already_muted_in_channel: '[TownyChat] Oyuncunun zaten susturulmuş &f%s'
+tc_player_is_now_muted_in_channel: '[TownyChat] &f%s &2 artık &f%s içinde kapatıldı'
+tc_player_is_not_muted_in_channel: '[TownyChat] Oyuncunun susturulmuş değil &f%s'
+tc_player_is_now_unmuted_in_channel: '[TownyChat] &f%s &2 şu anda &f%s içinde susturulmuş'
+tc_err_you_are_currently_muted_in_channel: 'Şu anda &f%s &c''de susturuldunuz!'
+tc_err_you_cannot_leave_channel: '&f%s''den çıkamazsınız'
+tc_you_already_left_channel: '[TownyChat] zaten ayrıldınız &f%s'
+tc_you_left_channel: '[TownyChat] &f%s''den ayrıldınız'
+tc_you_are_now_talking_in_channel: '[TownyChat] Şu anda &f%s ile konuşuyorsunuz'
+tc_err_you_cannot_join_channel: '&f%s''ye katılamazsınız'
+tc_you_are_already_in_channel: '[TownyChat] Zaten &f%s içindesiniz'
+tc_you_joined_channel: '[TownyChat] &f%s &7katıldınız'
+tc_err_you_are_already_talking_in_default_channel_help: 'Zaten varsayılan kanalda konuşuyorsunuz. Başka bir kanala geçmek için o kanalın komutunu kullanın.'
+tc_err_unable_to_talk_essentials_mute: 'Konuşamıyor ...Şu anda susturuldunuz!'
+tc_err_unable_to_talk_you_are_spamming: 'Konuşamıyor ...Spam gönderiyorsunuz!'
+
+msg_admin_set_plot_help_1: 'Bir kasabadayken.'
+msg_admin_set_plot_help_2: 'Vahşi doğada.'
+msg_err_not_enough_outposts_free_to_claim: '%s/%s için hak talebinde bulunmak için yeterli karakol yok'
+msg_err_over_outposts_limit: 'karakolsünüze ışınlanamazsınız, %s/%s sınırınızı aştınız'
+
+# Status Screen elements (/res, /town, /nation, /tw, /plot perm)
+# These are translated because we may (or may not) be handling longer words in a smart way.
+# If you are a translator feel free to skip over this section, as it may or may not appear very nice
+# in game. It would be best to see what the changes look like in game before you PR it to github.
+outlaws: '&2Kanun kaçakları: &f'                    # Used on /t outlawlist
+online: '&a(Online)'
+registered_last_online: '&2Kayıtlı: &a%s &8| &2Son Çevrimiçi: &a%s'
+status_perm: '&2Yetki: '                     # Used on /plot perm, /res
+status_permissions: '&2İzinler: '       # Used on /town
+status_on: '&4AÇIK'
+status_off: '&aKAPALI'
+status_on_good: '&aAÇIK'
+status_off_bad: '&4KAPALI'
+status_forced: '&cZorla'
+status_adjustable: '&aAyarlanabilir'
+status_pvp: '&2PVP: '
+explosions: '  &2Patlamalar: '              # Used on /plot perm, /res
+explosions2: '&2Patlamalar: '               # Used on /town and /tw
+firespread: '  &2Yangın Yayılması: '
+mobspawns: '  &2Mob Doğması: '
+owner_of_x_plots: '&2Sahibi &a%s plots'
+status_bank: '&2Banka: &a%s'
+status_town: '&2Kasaba: &a'
+status_no_town: 'None'
+status_town_ranks: '&2Kasaba Sıralamaları: &a'
+status_nation_ranks: '&2Ulus Rütbeler: &a'
+jailed_in_town: '&2Hapsedildi: &aEvet &2Kasaba da: &a%s'
+status_friends: 'Arkadaşlar'
+rank_list_title: ' &3Rütbe Listesi'
+rank_list_mayor: '&2Belediye Başkanı: &a%s'
+status_title_pvp: ' &4(PVP)'
+status_title_open: ' &b(Açık)'
+status_town_board: '&2Kasaba Panosu: &a%s'
+status_founded: '&2Kuruluş: &7%s'
+status_town_size_part_1: '&2Kasaba Boyutu: &a%s / %s'
+status_town_size_part_2: ' &b[Satın almak: %s/%s]'
+status_town_size_part_3: ' &b[Bonus: %s]'
+status_town_size_part_4: ' &b[Ulus Bonusu: %s]'
+status_town_size_part_5: ' &7[Ev: '
+status_town_outposts: '&2Karakollar: &a%s / %s'
+status_town_outposts2: ' &b[Ulus Bonusu: %s]'
+status_town_outposts3: '&2Karakollar: &a0 / %s'
+status_town_outposts4: '&2Karakollar: &a%s'
+status_bank_town2: ' &7| &2Günlük Vergi: &4%s'
+status_bank_town3: ' &7| &2Kesinti: &4%s'
+status_town_nation: '&2Ulus: &a%s'
+status_town_reslist_overlength: 've dahası...'
+status_town_reslist: '&2Sakinleri &a[%s]&2: &f'
+status_nation_peaceful: '&7Huzurlu'
+status_nation_king: '&2Kral: &a%s'
+status_nation_tax: '  &2Ulus Vergisi: &4%s'
+status_nation_assistants: '&2Asistanlal: &f'
+status_nation_towns: '&2Kasabalar &a[%s]&2: &f'
+status_nation_allies: '&2Müttefikler &a[%s]&2: &f'
+status_nation_enemies: '&2Düşmanlar &a[%s]&2: &f'
+status_world_claimable: ' &aİddia edilebilir'
+status_world_noclaims: ' &cTalep yok'
+status_world_forcepvp: '&2ForcePVP: '
+status_world_fire: '&2Ateş: '
+status_world_forcefire: '&2Ateşi Zorla: '
+status_world_forceexplosion: '&2Patlamayı Zorla: '
+status_world_worldmobs: '&2Dünya Çeteleri: '
+status_world_forcetownmobs: '&2Zorla Kasabası Yaratıkları: '
+status_world_unclaimrevert: '&2Geri Döndürmeyi Kaldır: '
+status_world_explrevert: '&2Patlama Geri Döndürme: '
+status_world_ignoredblocks: '&2Yoksayılan Bloklar:'
+status_res_taxexempt: '&2Personel kasaba vergileri ödemekten muaftır.'
+status_res_tax: '&2İlçe Vergisi: &a'
+status_res_plottax: '&2Toplam Arsa Vergileri: &a'
+status_res_totaltax: '&2Ödenecek Toplam Vergi: &a'
+
+# 0.45'de eklendi
+msg_err_enemy_war_your_town_has_no_claims: 'Kasabanızda 0 toprak varken saldıramazsınız.'
+msg_err_unable_to_use_bank_outside_nation_capital: 'Ulus bankanızı ulus dışında kullanamazsınız.'
+msg_err_unable_to_use_bank_outside_your_town: 'Kasabanızın dışındaki kasaba bankanızı kullanamazsınız.'
+msg_time_until_a_new_day: 'Yeni Bir Güne Kadar Geçen Süre: '
+msg_hours: 'saat'
+msg_minutes: 'dakika'
+msg_seconds: 'saniye'
+msg_err_invalid_string_nationboard_not_set: 'Türkçe karakterler desteklenmemektedir.'
+
+msg_plot_evict: 'Arsa başarıyla çıkarıldı.'
+msg_no_one_to_evict: 'Bu arsadan çıkarılacak kimse yok.'
+
+# 0.46'da eklendi
+nation_help_10: 'Ulusların spawnına ışınlanma.'
+msg_nation_spawn_warmup: '&bışınlanmak için bekleniyor ...'
+msg_set_nation_spawn: '&bBaşarı ile ülke spawnı değiştirildi'
+msg_err_cant_afford_tp_nation: '&c%s ile ışınlanmayı göze alamaz.'
+msg_err_nationspawn_has_not_been_set: '&cUuls spawn ayarlanmadı.'
+msg_err_spawn_not_within_nationtowns: '&cUlusal spawn, ulusun bir parçası olan bir kasabada olmalıdır.'
+msg_err_spawn_not_within_capital: '&cUlusun spwanı başkentte olmalı.'
+msg_err_nation_spawn_war: '&cUlus spawn''ları savaş süresince kullanılamaz.'
+msg_err_nation_not_public: '&cBu ulus herkese açık değil.'
+msg_nation_toggle_public: '&aUlus durumu başarı ile herkese açık olarak değiştirildi.'
+status_yes: '&aEVET'
+status_no: '&cHAYIR'
+status_public: '&2Genel: '
+msg_err_unable_to_use_bank_outside_bank_plot: 'Bu komutu bir banka veya ev arsası dışında kullanamazsınız.'
+msg_err_nation_spawn_forbidden: '&cUlus spawn seyahati yasaktır.'
+msg_err_nation_spawn_forbidden_war: '&cUlus spawn seyahatine yalnızca savaş sırasında izin verilir.'
+msg_err_nation_spawn_forbidden_peace: '&cUlus savaşı sırasında ulus spawn seyahati yasaktır.'
+msg_err_nation_spawn_ally_forbidden: '&cUlus müttefik uluslara spawn seyahati etmek yasaktır.'
+msg_err_nation_spawn_nation_forbidden_war: '&cDiğer müttefik uluslara spawn seyahatine sadece savaş sırasında izin verilir.'
+msg_err_nation_spawn_nation_forbidden_peace: '&cUlusun diğer müttefik ülkelere spawn seyahati savaş sırasında yasaktır.'
+msg_err_public_nation_spawn_forbidden: '&cDiğer uluslara halkın seyahat etmesi yasaktır.'
+msg_err_public_nation_spawn_forbidden_war: '&cDiğer uluslara halkın spawn seyahatine yalnızca savaş sırasında izin verilir.'
+msg_err_public_nation_spawn_forbidden_peace: '&cSavaş sırasında diğer uluslara halkın seyahat etmesi yasaktır.'
+msg_spawn_cost_set_to: '&b%s, /%s spawn değerini kullanmanın fiyatını %s olarak belirledi'
+#burada kaldım
+msg_err_cannot_set_spawn_cost_more_than: '&cSeyahat maliyetini %s''den daha fazla ayarlayamazsınız'
+msg_err_ally_isnt_public: '&cDostunuz %s, herkese açık seyahat özelliğini etkinleştirmedi. Işınlanma reddedildi.'
+msg_nation_changed_public: '&cUlusun genel durumu şimdi %s.'
+status_public2: '&2Herkes'
+
+# Added in 0.47:
+status_plot_type: '&2Arsa Tipi: &a'
+msg_no_self_jailing: 'Kendini hapse atamazsın.'
+online2: ' &a(Aktif)'
+build: 'İnşa etmek'
+destroy: 'Yok et'
+switch: 'Değiştirmek'
+item_use: 'Eşya_kullanım'
+owner_status: 'Kurucu'
+towny_map_header: 'Towny Haritası '
+towny_map_unclaimed: 'Sahipsiz'
+towny_map_claimed: 'Talep edildi'
+towny_map_forsale: 'Satılık'
+towny_map_yourtown: 'Senin kasabanın'
+towny_map_yourplot: 'Arsa'
+towny_map_ally: 'Müttefik'
+towny_map_enemy: 'Düşman'
+enabled: 'Etkin'
+disabled: 'Devre dışı'
+forced: 'Zorla'
+adjustable: 'Ayarlanabilir'
+
+# 0.48'de eklendi:
+msg_no_funds_new_town2: '&c%s, buraya yeni bir kasaba yerleştirmezsin, gerekli altın %s.'
+msg_no_funds_new_nation2: '&c%s, buraya yeni bir ulus yerleştirmezsin, gerekli altın %s.'
+msg_no_funds_claim2: '&cKasabanız %s maliyetiyle %s arsayı talep edemez. /t deposit %s komutunu kullanarak kasaba bankasına %s ekleyin'
+msg_err_cant_afford_blocks2: '&cKasabanız %s maliyetiyle %s arsayı talep edemez. /t deposit %s komutunu kullanarak kasaba bankasına %s ekleyin'
+msg_err_not_enough_variables: '&cYeterli değişken yok: '
+nation_rechecked_by_admin: '&bUlus %s kasaba mesafeleri başarıyla yeniden kontrol edildi.'
+msg_err_nation_over_town_limit: '&cUlusunuz izin verilen maksimum kasaba sayısı: %s''ye ulaştı.'
+
+# Added in 0.49
+msg_process_claim: 'Arsa Hak Talebi İşleniyor...'
+msg_process_unclaim: 'İşleniyor Arsa Hak Talebi...'
+msg_total_townblocks: 'Toplam Kasaba Blokları: '
+
+# 0.50'de eklendi
+friend_list: 'Arkadaş Listesi'
+# Aşağıdaki biçimlendirme listeleri / res ekranındaki arkadaş listeleri için geçerlidir; / town ekranında townranks listel / nation ekranındaki
+# nationranks listeleri; ve muhtemelen daha fazla sakin listesi.
+res_format_list_1: '&2'  #First colour applied to Resident lists, ex: on /res, the friend list's Friends section.
+res_format_list_2: '&a'  #Second colour applied to Resident lists, ex: on /res, the friend list's [1] section.
+res_format_list_3: '&f'  #Third colour applied to Resident lists, ex: on /res, the friend list's list of friends' names section.
+res_friend_added: 'Eklendi '
+townboard_message_colour_1: '&6'
+townboard_message_colour_2: '&e'
+nationboard_message_colour_1: '&6'
+nationboard_message_colour_2: '&e'
+not_registered: 'Kayıtlı değil.'
+msg_error_missing_comparator: '&bNeyin sıralanacağını belirtmelisiniz.'
+msg_error_invalid_comparator: '&bGeçersiz karşılaştırıcı.'
+msg_error_multiple_comparators: '&bÇok sayıda karşılaştırıcı. Yalnızca birini belirtin.'
+msg_error_comparator_failed: '&bKarşılaştırıcı başarısız oldu. Farklı bir tane deneyin.'
+number_of_residents: '(Sakin Sayısı)'
+number_of_towns: '(Kasaba Sayısı)'
+town_name: 'Kasaba Adı'
+nation_name: 'Ulus Adı'
+refund_message: '&a%s kasaba blokları üzerinde hak taleplerini reddettiği için %s iade edildi.'
+msg_bankrupt_town_multiple: '&bAşağıdaki kasabalar bakım ücretlerini karşılayamadı ve dağıtıldı: '
+msg_bankrupt_nation_multiple: '&bAşağıdaki uluslar bakım ücretlerini karşılayamadı ve dağıtıldı: '
+msg_couldnt_pay_tax: '&b%s vergi ödeyemedi ve %s kasabasından atıldı.'
+msg_couldnt_pay_nation_tax_multiple: '&bAşağıdaki kasabalar ulus vergisini karşılayamadı ve ulustan ayrıldı: '
+msg_couldnt_pay_town_tax_multiple: '&bAşağıdaki bölge sakinleri kasaba vergisini karşılayamadı ve sürgün edildi: '
+msg_couldnt_pay_plot_taxes_multiple: '&bAşağıdaki sakinler, arazilerinin bir kısmı veya tamamı için arsa vergisini karşılayamadı: '
+msg_bankrupt_town2: '&b%s bir kasaba olarak kalamaz.'
+msg_bankrupt_nation2: '&b%s bir ulus olarak kalamaz.'
+status_embassy_town: '&2Büyük Elçilikler'
+
+# 0.51'de eklendi:
+msg_error_invalid_comparator_nation: '&bGeçersiz karşılaştırıcı. Çevrimiçi ikamet etmeyi, dengeyi, kasabaları, adı, kasaba engellerini deneyin.'
+msg_error_invalid_comparator_town: '&bGeçersiz karşılaştırıcı. Yerleşik, bakiye, isim, kasaba engelleri, çevrimiçi, açık deneyin.'
+msg_err_merging_for_kings_only: '&bBirleşme yalnızca bir Kral tarafından yapılabilir.'
+msg_err_king_of_that_nation_is_not_online: '&b%s Kralı %s çevrimiçi değil. Birleştirme başarısız oldu.'
+nation1_has_merged_with_nation2: '&6%s ülkesi, hakim olan %s ülkesi ile birleşmeyi kabul etti.'
+msg_would_you_merge_your_nation_into_other_nation: '&6%s ulusunuzu %s ulusuna birleştirmeyi kabul ederiyor musunuz? Bu, tüm kasabaları ve ulus bankası parasını %s hesabına aktarır.'
+no_open_towns: 'Listelenecek açık kasaba yok.'
+
+# 0.52'de eklendi:
+msg_error_nation_has_no_allies: 'Ulusun listelenecek müttefiki yok.'
+msg_error_nation_has_no_enemies: 'Ulusun listeleyecek düşmanı yok.'
+msg_error_ta_plot_claim: 'Eksik oyuncu adı, örn: /ta plot claim OyuncuAdıBuraya'
+msg_error_no_player_with_that_name: '%s adında oyuncu bulunamadı'
+msg_admin_has_given_you_a_plot: 'Bir yönetici sizin için bir arsa talep etti: %s'
+msg_town_forcepvp_setting_set_to: '%s kasabasının pvp durumu %s durumuna zorlandı'
+msg_nation_changed_open: '&cUlusunuzun açık durumu şu anda %s.'
+msg_err_already_in_a_nation: 'Kasabanız zaten bir ulusta.'
+msg_err_nation_not_open: '&c%s ulusunun kapıları herkese açık değil. Kraldan veya bir asistandan isteyin.'
+msg_err_nation_homeblock_in_another_world: '&cKasabanın merkezi ulus başkenti ile aynı dünyada değil.'
+status_bank_town_penalty_upkeep: ' &7| &2Aşırı arsa akım ücreti: &4%s'
+
+# 0.53'de eklendi:
+msg_error_cannot_town_spawn_youre_an_outlaw_in_town: '%s kasabasına seyahat edemezsin çünkü orada kanun kaçağısın.'
+
+# 0.54'de eklendi:
+war_hud_homeblock: 'HOMEBLOCK'
+war_hud_wilderness: 'sahipsiz'
+war_hud_true: 'evet'
+war_hud_false: 'hayır'
+war_hud_peaceful: 'Barışçıl'
+war_hud_fallen: 'Düşmüş'
+war_hud_townless: 'Kasabasız!'
+war_hud_war: 'Savaş'
+war_hud_score: 'Puan: '
+war_hud_location: 'Konum'
+war_hud_nation: 'Ulus: '
+war_hud_town: 'Kasaba: '
+war_hud_attackable: 'Saldırılabilir: '
+war_hud_health: 'Sağlık: '
+war_hud_top_towns: 'En Popüler kasabalar'
+war_stats_nations: 'Uluslar: '
+war_stats_towns: 'Kasabalar: '
+war_stats_warzone: 'WarZone: '
+war_stats_spoils_of_war: 'Savaş Ganimeti: '
+war_starts_in_x: 'Savaş %s içinde başlıyor'
+
+# 0.55'de eklendi:
+msg_you_cannot_use_that_command_while_jailed: '&4Hapisteyken bu komutu kullanamazsınız.'
+
+# 0.56 eklendi:
+msg_cache_block_error_town_nation: '&cUlus üyelerine %s izin verilmiyor.'
+
+# 0.57'de eklendi:
+msg_err_already_res2: '&c%s zaten bir kasabaya ait.'
+msg_err_cannot_afford_plot_set_type_cost: '&cArsayı %s türünden %s türüne ayarlamak için yeterli altının yok.'
+msg_plot_set_cost: '&bArsa türünü %s olarak ayarlamak için %s borçlandırıldı'
+msg_err_townspawn_has_not_been_set: '&cKasaba spawn noktası ayarlanmadı.'
+msg_err_player_too_far_from_town_spawn: '&c%s adlı kasaba seyahat etmek için kasabanınizin spawn noktası çok uzak. Maksimum mesafe: %s blok.'
+
+# 0.58'de eklendi:
+msg_resident_bail_amount: 'Yerleşik Kefalet maliyeti: '
+msg_mayor_bail_amount: 'Başkan Kefalet maliyeti: '
+msg_king_bail_amount: 'Kral Kefalet maliyeti: '
+msg_has_paid_bail: 'kefalet ödedi ve özgür!'
+msg_err_unable_to_pay_bail: 'Kefalet ödenemez.'
+msg_err_bail_not_enabled: 'Kefalet etkin değil.'
+msg_you_have_been_freed_from_jail: 'Hapisten kurtuldunuz.'
+msg_player_has_been_freed_from_jail_number: '%s adlı oyuncu %s nolu hapishane hücresinden kurtuldu.'
+msg_you_have_been_sent_to_jail: 'Hapse gönderildin.'
+msg_player_has_been_sent_to_jail_number: '%s adlı oyuncu %s nolu hapishane hücresine gönderildi.'
+msg_player_is_not_online: '%s çevrimiçi değil.'
+msg_err_days_must_be_greater_than_zero: '&cGünler sıfırdan büyük olmalıdır.'
+msg_you've_been_jailed_for_x_days: '%s gün boyunca hapsedildiniz.'
+msg_jailed_for_x_days: '&%s gün için.'
+msg_mysql_dump_success: 'MySQL veritabanı dökümü tamamlandı.'
+msg_err_mysql_not_being_used: 'Yapılandırmanız MySQL kaydetmek ve yüklemek için ayarlanmamış.'
+msg_save_success: 'Veritabanı kaydedildi.'
+msg_load_success: 'Veritabanı yüklendi.'
+msg_err_cannot_afford_to_set_outpost: 'Kasabanızda bu arsayı bir karakol olarak ayarlamak için yeterli para yok.'
+msg_too_close2: 'Bu alan başka bir %s çok yakın.'
+homeblock: 'kasaba merkezine'
+townblock: 'arsaya'
+karakol: 'karakola'
+msg_err_not_same_town: '&b%s kasabanıza ait değil.'
+
+# 0.59'da eklendi:
+msg_modes_set: 'Modlar kümesi: '
+msg_err_this_plot_doesnt_have_any_associated_metadata: 'Bu arsada ilişkili herhangi bir meta veri yok.'
+msg_err_the_metadata_for_key_is_not_registered: '%s için meta veriler kaydedilmedi!'
+msg_key_x_was_successfully_updated_to_x: '%s anahtarı başarıyla%s olarak güncellendi.'
+msg_err_key_x_is_not_part_of_this_plot: '%s anahtarı bu arsanın bir parçası değil, mümkünse lütfen ekleyin.'
+msg_err_key_x_already_exists: '%s anahtarı zaten var!'
+msg_custom_data_was_successfully_added_to_townblock: 'Özel veriler kasaba bloğuna başarıyla eklendi!'
+msg_data_successfully_deleted: 'Veriler başarıyla silindi!'
+msg_err_key_cannot_be_deleted: 'Anahtar, var olmadığı için silinemiyor!'
+msg_err_this_town_doesnt_have_any_associated_metadata: 'Bu kasabanın ilişkili herhangi bir meta verisi yok.'
+msg_err_key_x_is_not_part_of_this_town: '%s anahtarı bu kasabanın bir parçası değil, mümkünse lütfen ekleyin.'
+msg_custom_data_was_successfully_added_to_town: 'Kasabaya özel veriler başarıyla eklendi!'
+msg_error_too_many_pages: 'Çok fazla sayfa.'
+msg_err_location_is_not_within_a_town: 'Konum bir kasaba içinde değil.'
+msg_err_location_is_not_within_a_jail_plot: 'Konum bir Hapishane planında değil.'
+msg_err_town_has_no_jail_spawns_set: 'Kasabada hapishane sapwnı yok.'
+msg_err_town_has_no_outpost_spawns_set: 'Kasabada herhangi bir karakol spawnı yok.'
+msg_err_location_is_not_within_an_outpost_plot: 'Konum karakol içinde değil.'
+msg_err_town_has_not_set_a_spawn_location: 'Kasaba bir spwan yeri belirlemedi.'
+msg_err_town_has_no_claim_over_this_town_block: 'Kasabanın bu kasaba bloğu üzerinde bir talebi yok.'
+msg_err_town_doesnt_belong_to_any_nation: 'Kasaba hiçbir ulusa ait değil.'
+msg_err_mayor_doesnt_belong_to_town: 'Belediye Başkanı kasabaya ait değil.'
+msg_err_tag_too_long: 'Etiket çok uzun.'
+msg_err_nation_has_not_set_a_spawn_location: 'Ulus bir spawn yeri belirlemedi.'
+msg_err_resident_doesnt_belong_to_any_town: 'Yerleşik hiçbir kasabaya ait değilsin'
+msg_err_could_not_set_default_modes_for: 'için varsayılan modlar ayarlanamadı'
+
+# 0.60'da eklendi
+msg_set_war_allowed_on: 'Bu dünyada savaşa izin verilecek.'
+msg_set_war_allowed_off: 'Savaş bu dünyayı etkilemeyecek.'
+msg_war_not_enough_nations: '&6[Savaş] &fSavaş için 2''den az ulus toplandı, savaş iptal edildi.'
+msg_war_no_enemies_for_war: '&6[Savaş] &fŞu anda savaş için toplanan düşman yok, savaş iptal edildi.'
+msg_war_prefix: '&6[Savaş] &f'
+msg_war_participants_header: '&6[Savaş] &eUlus Adı &f(&bTowns&f)'
+msg_war_participants: '&6[Savaş] &e%s&f (&b%s&f)'
+
+# 0.61'de eklendi
+msg_war_flag_deny_town_under_attack: 'Saldırı sırasında bunu yapamazsınız!'
+msg_war_flag_deny_nation_under_attack: 'Bunu ülkenizdeki bir kasaba saldırı altındayken yapamazsınız!'
+msg_war_flag_deny_recently_attacked: 'Bunu yapamazsın! Çok yakın zamanda saldırıya uğradın!'
+
+# 0.62'de eklendi
+msg_err_cannot_toggle_pvp_x_seconds_remaining: 'PVP''yi değiştiremezsiniz, %s saniye kaldı.'
+msg_err_cannot_spawn_x_seconds_remaining: '%s saniye daha doğamazsınız.'
+
+# 0.63'de eklendi
+msg_plot_set_to_nfs: 'Arsa artık satılmıyor.'
+msg_err_x_spawn_disallowed_from_x: '&c%s''nin% s öğesinden çıkmasına izin verilmiyor.'
+msg_the_wilderness: 'Vahşi Doğa'
+msg_enemy_areas: 'Düşman alanları'
+msg_neutral_towns: 'Nötr kasabalar'
+
+# 0.64'de eklendi
+msg_err_no_nation_with_that_name: '%s adında ulus bulunamadı'
+msg_err_cannot_unclaim_homeblock: 'Homeblock''U kaldıramazsınız, homeblock''U taşımak için/town set homeblock kullanın.'
+
+# 0.65'de eklendi
+msg_err_rename_cancelled: 'Yeniden adlandırma başka bir eklenti tarafından iptal edildi.'
+
+# 0.66'da eklendi
+msg_war_defender_keeps_claims: 'Fetih devre dışı. Savunan taraf topraklarını koruyacak.'
+
+# 0.67'de eklendi
+msg_war_town_has_been_conquered_by_nation_x_for_x_days: '%s şehri fethedildi ve %s gün boyunca %s ülkesine katıldı.'
+msg_conquered: '[Fethedildi]'
+msg_err_your_conquered_town_cannot_leave_the_nation_yet: 'Kasabanız hâlâ fethedilmiş statkarakolünde olduğu için ulustan ayrılamaz.'
+
+# 0.68'de eklendi
+msg_plot_group_claim_confirmation: 'Bu arsa,%s arsa grubunun bir parçasıdır, talebinizi onaylayarak hepsini satın alacaksınız.'
+msg_plot_group_unclaim_confirmation: 'Bu arsa,%s arsa grubunun bir parçası olup, bunların hepsine hak iddia etmeyeceğinizi onaylarsınız.'
+msg_plot_group_toggle_confirmation: 'Bu arsa,%s arsa grubunun bir parçasıdır ve hepsi üzerinde bir özelliği değiştireceğinizi onaylar..'
+msg_plot_group_set_perm_confirmation: 'Bu grafik,%s arsa grubunun bir parçasıdır ve bunların hepsinde kalıcı çizgiyi ayarlayacağınızı onaylarsınız..'
+msg_plot_evict_group: 'Bu gruplandırılmış arsanın oyuncusunu başarıyla tahliye ettiniz, %s.'
+msg_err_plot_belongs_to_group_plot_fs: 'Arsa:%s bir gruba ait, kullan /plot group [group name] fs [amount]'
+msg_err_plot_belongs_to_group_set: 'Arsa bir gruba ait, kullan /plot group set'
+msg_plot_group_set_for_sale: '%s grubu satışa çıkarıldı!'
+msg_err_plot_already_belongs_to_a_group: 'Bu arsa zaten bir gruba ait:%s, lütfen başka bir gruba eklemeden önce bu gruptan kasaba bloğunu kaldırın.'
+msg_err_you_must_specify_a_group_name: 'Bir çizim grubu adı belirtmelisiniz.'
+msg_plot_was_put_into_group_x: 'Arsa &9 (%s,%s) &2,%s grubuna yerleştirildi'
+msg_err_plot_not_associated_with_a_group: 'Bu arsa bir grupla ilişkili değil.'
+msg_plot_was_removed_from_group_x: 'Arsa &9 (%s,%s) &2,%s grubundan kaldırıldı'
+msg_plot_renamed_from_x_to_y: '%s arsa %s olarak yeniden adlandırıldı.'
+msg_err_plot_group_specify_price: 'Lütfen fiyatı belirtin, ör .: /plot group fs [price]'
+msg_player_put_group_up_for_sale: '%s %s grubunu %s için satışa çıkardı'
+msg_err_could_not_set_group_type: 'Grup türü ayarlanamadı -'
+msg_set_group_type_to_x: 'Toprak grubunun türü değiştirildi türü %s olarak değiştirildi'
+msg_player_successfully_bought_group_x: '%s başarıyla %s toprak grubunu satın aldı'
+status_plot_group_name_and_size: '&2Townblock,%s grubunun bir parçası. Grubun toplam %s Townblock''u var.'
+msg_player_made_group_not_for_sale: '%s %s grubu satılık değil.'
+
+# 0.69'da eklendi
+msg_err_cannot_set_group_to_jail: 'Arsa grupları hapishane türlerine ayarlanamaz.'
+
+# 0.70 eklendi
+msg_err_plot_group_name_required: 'Arsa grubu adını belirtmelisiniz, /plot group add {name}'
+msg_confirmation_spigot_hover_accept: 'Kabul etmek için tıklayın'
+msg_confirmation_spigot_hover_cancel: 'İptal etmek için tıklayın'
+msg_confirmation_spigot_click_accept: '%s düğmesini tıklayın veya %s yazın'
+msg_confirmation_spigot_click_cancel: '%s''yi tıklayın vey a%s yazın'
+msg_you_cannot_kick_yourself: 'Kendinizi atamazsınız.'
+msg_you_cannot_kick_this_resident: '%s''yi atamazsın, onlar belediye başkanı veya yardımcıdır.'
+
+# 0.71'de eklendi
+msg_err_plot_belongs_to_group_plot_fs2: 'Arsa:%s bir gruba ait, /plot grup fs [miktar] kullanın'
+msg_err_plot_belongs_to_group_plot_nfs: 'Arsa:%s bir gruba ait,  plot group nfs kullan'
+
+# 0.72'de eklendi
+msg_err_admin_controlled_pvp_prevents_you_from_changing_pvp: 'Yönetici tarafından kontrol edile n%s ayarı, pvp''yi %s olarak değiştirmenizi engelliyor.'
+
+# 0.73 eklendi
+msg_err_you_arışmakta değilsiniz: 'Şu anda hapiste değilsiniz.'
+
+# 0.74'de eklendi
+msg_err_you_are_not_allowed_to_create_the_other_side_of_this_portal: 'Bu portalın bu tarafında diğer tarafını oluşturmanıza izin verilmiyor.'
+
+# 0.75 eklendi
+msg_already_ally: 'Ülkeniz zaten %s ile ittifak kurdu.'
+
+# 0.76 eklendi
+msg_you: 'Siz'
+
+# 0.77 eklendi
+msg_click_spawn: '&aSpawn için tıklayın: &e%s'
+msg_spawn_cost: '&aSpawn Maliyeti = &e%s'
+
+# 0.78'de eklendi
+msg_reload_error: 'Towny yeniden yüklenirken bir hata oluştu.'
+msg_reloaded_config: '&2Yapılandırma başarıyla yeniden yüklendi.'
+msg_reloaded_perms: '&2İzlemeler başarıyla yeniden yüklendi.'
+msg_reloaded_db: '&2B veritabanı başarıyla yüklendi'
+msg_reloaded_lang: '&2Dil dosyası başarıyla yeniden yüklendi'
+msg_reset_config: '&2Config sıfırlandı'
+msg_err_teleport_cancelled: 'Işınlanma isteğiniz iptal edildi.'
+
+# 0.79 eklendi
+msg_cache_block_error_plot_friends: 'arkadaşlar'
+msg_cache_block_error_plot_allies: 'müttefikler'
+msg_cache_block_error_plot_outsiders: 'yabancılar'
+msg_cache_block_error_plot_town_members: 'kasaba üyeleri'
+msg_err_invalid_nation_map_color: '&cBilinmeyen harita rengi. İzin verilen renkler %s.'
+msg_nation_map_color_changed: '&bUlusal harita rengi %s olarak değiştirildi.'
+msg_err_unable_to_add_more_residents_without_nation: 'Kasabanız, bir ülkeye katılmadan veya bir ulus oluşturmadan %s''den fazla kişiyi davet edemez.'
+msg_the_following_towns_were_deleted_for_having_0_claims: 'Aşağıdaki kasabalar 0 toprağı bulunduğu için silindi: %s'
+msg_spawn_warn: 'Spawn maliyeti %s. Devam et? İpucu: Bu onayları atlamak için -ignore ekleyin.'
+msg_confirm_purchase: 'Bunu yapmak %s tutacaktır. Devam et?'
+msg_warn_the_following_towns_will_be_removed_from_your_nation: 'Aşağıdaki kasabalar ülkenizden kaldırılacak: %s. Devam etmek istiyor musunuz?'
+msg_ta_deposit_all_success: '%s başarıyla tüm uluslara ve kasabala bankalarına yatırıldı.'
+bonus_townblocks: 'bonus townblock'
+
+# Added in 0.80
+nomad_sing: 'Nomad'
+msg_new_town_advice: 'kasabanınizi yarattığınız için tebrikler! kasabanıniz şu anda% s değerinde olan günlük bir bakım ödeyecek. '' /t deposit #'' kullanarak kasabanızın bankasına para yatırabilirsiniz. Bakım parasını ödemeden kasabanız silinecektir. Maliyetlerinizi istediğiniz zaman/kasaba içi fiyatları kullanarak görebilirsiniz. Sonraki günlük bakım %s olarak alındı.'
+
+# 0.81'de eklendi
+msg_err_teleport_cancelled_damage: 'Hasar ışınlanmanızı iptal etti.'
+
+# 0.82'de eklendi
+invitation_prefix: "&8[&7Davetiye &8] &9"
+confirmation_prefix: "&8[&7Onay &8] &9"
+this_message_will_expire2: '&9Bu 20 saniye sonra otomatik olarak sona erecek'
+msg_hover_next_page: 'Sonraki Sayfa'
+msg_hover_previous_page: 'Önceki Sayfa'
+
+# 0.83'de eklendi
+msg_max_tax_amount_only_for_percent: "Maksimum vergi tutarları yalnızca vergi oranlarına sahip kasabalar için ayarlanabilir."
+msg_town_set_tax_max_percent_amount: "%s, maksimum vergi yüzde tutarını %s olarak belirledi."
+
+# Added in 0.84
+msg_err_plot_belongs_to_group_toggle: Arsa bir gruba ait, /plot toogle group komutunu kullan'
+
+# Added in 0.85
+msg_set_perms_reset_single: '&bBu grafikteki izinler başarıyla sıfırlandı.'
+
+#Added in 0.86
+status_bank_bankrupt: '&2Banka: &a%s &c(BANKRUPT)'
+msg_warning_bankrupt: '&4 *** UYARI,% s ALTIN EKSİKLİĞİ NEDENİYLE BİR SONRAKİ YENİ GÜNDE BANKRUPA GİTECEK ***'
+msg_town_bankrupt_by_upkeep: '&b%s, bakım masraflarını karşılayamadı ve iflas etti.'
+msg_town_bankrupt_by_upkeep_multiple: '&bAşağıdaki kasabalar bakım masraflarını karşılayamadı ve iflas etti: '
+msg_town_bankrupt_by_nation_tax: '&b%s, kasaba %s ulus vergisini ödeyemedi ve iflas etti.'
+msg_town_bankrupt_by_nation_tax_multiple:  '&bAşağıdaki kasabalar ulus vergisini karşılayamadı ve iflas etti: '
+msg_town_debts_cleared: '%s tüm borçlarını kapattı ve artık iflas etmiyor.'
+msg_err_bankrupt_town_cannot_claim: 'İflas etmiş bir kasaba claim alamaz!'
+msg_err_bankrupt_town_cannot_build: 'İflas etmiş bir kasabada inşaat yapılmasına izin verilmiyor.'
+msg_err_bankrupt_town_cannot_toggle_open: 'İflas etmiş bir kasabada açılmaya izin verilmez.'
+msg_err_bankrupt_town_cannot_invite: 'Oyuncuları iflas etmiş bir şehre davet edemezsiniz.'
+msg_payed_nation_tax: '&b%s tutarında ulus vergisi ödendi'
+msg_your_town_couldnt_pay_the_nation_tax_of: '&bKasabanız %s ulus vergisini karşılayamadı ve ülkeden atıldı.'
+msg_your_town_payed_upkeep: '&bKasabanız günlük %s altın bakımını ödedi.'
+msg_your_nation_payed_upkeep: '&bÜlkeniz günlük %s altın bakımını ödedi.'
+msg_your_town_couldnt_pay_upkeep: '&bKasabanız günlük %s altın bakım masrafını ödeyemedi ve dağıldı.'
+msg_your_nation_couldnt_pay_upkeep: '&bUlusunuz günlük %s altın bakım masraflarını ödeyemedi ve dağıldı.'
+
+#Added in 0.87
+msg_town_reached_debtcap_and_is_disbanded: '&b%s bakım masraflarını ödeyemedi ve dağıldı.'
+msg_town_reached_debtcap_and_is_disbanded_multiple: '&bAşağıdaki kasabalar bakım masraflarını ödeyemediler ve dağıldılar: '
+msg_unable_to_deposit_x: 'Kasaba bankasına %s yatırılamıyor.'
+msg_unable_to_withdraw_x: 'Kasaba bankasından %s çekilemiyor.'
+status_debtcap: '&2Borç Kapasitesi: &a%s'
+status_world_explrevert_entity: '&2Entity Patlamasını Geri Döndürme: '
+status_world_explrevert_block: '&2Blok Patlamasını Geri Döndürme: '
+
+#Added in 0.88
+msg_nation_already_peaceful: '&cUlus zaten barışçıl.'
+msg_nation_already_not_peaceful: '&cUlus zaten barışçıl değil.'
+
+#Added in 0.89
+status_world_friendlyfire: '&2Dost ateşi: '
+status_world_wildernessmobs: '&2Vahşi Doğa Hayvanlar: '
+msg_outlaw_kick_cooldown: '&c%s ülkesinde kanun kaçağı sayılırsınız. Kasabayı terk etmek için %s hakkınız kaldı, aksi takdirde yeniden doğma noktanıza ışınlanacaksınız.'
+msg_outlaw_kicked: '&4%s içinde hoş karşılanmıyorsun. Işınlandın.'
+msg_outlaw_town_notify: '&cBir haydut, %s şehrinizin bölgesine girdi.'
+msg_your_town_payed_upkeep_with_debt: '&cKasabanız günlük %s altın bakım masrafını borçla ödedi.'
+msg_payed_nation_tax_with_debt: '&cKasabanız borçla birlikte %s altın ulus vergisini ödedi.'
+
+#Added in 0.90
+status_plot_clear_deletion: '&2ArsaBlokTemizleme: '
+msg_err_plot_clear_disabled_in_this_world: 'Bu dünyada /plot clear komutu devre dışı bırakılmıştır.'
+
+#Added in 0.91
+msg_universe_attribution: 'Yazarlar: '
+msg_universe_contributors: ' Ve sizin gibi katkıda bulunanlar. '
+msg_universe_heart: '<3'
+townblock_plu: 'TownBlocks'
+
+#Added in 0.92
+#Town Ruins
+admin_panel_4: 'Yeni saat kodunu çalıştırın'
+msg_newhour_success: 'yeni saat komutu başarıyla uygulandı'
+town_help_12: 'Kasabanızı yıkık bir devletten geri alın.'
+msg_warning_town_ruined_if_deleted: "UYARI !!!: Kasabanızı silerseniz, %d saat boyunca harap bir duruma girecektir. Bu süreden sonra tam silme işlemi gerçekleşecektir. Yıkık durumda, tüm izinler etkinleştirilir ve kasaba kederli olabilir."
+msg_warning_town_ruined_if_deleted2: "Kasaba,%d saat sonra ''/t reclaim'' kullanılarak herhangi bir kasaba sakini tarafından geri alınabilir."
+msg_err_cannot_reclaim_town_unless_ruined: '&cKasabanızı geri alamazsınız çünkü mahvolmamış.'
+msg_err_cannot_reclaim_town_yet: '&cKasabanızı %d saat daha geri alamazsınız.'
+msg_town_reclaimed: '&b%s, %s kasabasını geri aldı.'
+msg_err_cannot_attack_ruined_town: '&6[Savaş]&c Yıkık bir şehre saldıramazsın.'
+msg_err_cannot_use_command_because_town_ruined: "&cKasabanız mahvolduğu için bu komutu kullanamazsınız. Normal komut kullanımına devam etmek için ya ''/town reclaim '' kullanarak şehri geri alın veya '' /town allow '' kullanarak kasabayı terk edin."
+msg_warning_your_town_is_ruined_for_x_more_hours: '&cKasabanız %d saat daha harap bir durumda. Kasabayı kurtarmak ve belediye başkanı olmak için '' /town reclaim '' komutunu kullanın.'
+msg_time_remaining_before_full_removal: '&cTam kaldırılmadan önce kalan süre: %d saat.'
+msg_time_until_reclaim_available: '&cGeri kazanıma kadar geçen süre: %d saat.'
+msg_reclaim_available: '&aGeri kazanılabilir.'
+
+#Added in 0.93
+msg_changed_peaceful: '&cKasabanın tarafsızlığı / barışseverliği artık %s.'
+msg_err_town_unclaim_canceled: '&cclaim talebini iptal etme, iptal edildi. Şu anda bu alandan vazgeçemezsiniz.'
+
+#Added in 0.94
+msg_comptype_residents: 'Sakin Sayısı'
+msg_comptype_townblocks: 'Hak İddia Edilen Kasaba Bloklarının Sayısı'
+msg_comptype_balance: 'Banka Parası'
+msg_comptype_online: 'Aktif Oyuncular'
+msg_comptype_towns: 'İlçe Sayısı'
+msg_comptype_name: 'Alfabetik sıra'
+msg_comptype_open: 'Açık Durum'
+msg_status_npc: '&c%s gerçek bir oyuncu değildir ve yalnızca Towny ile sınırlıdır.'
+npc_created: '&2Oluşturuldu: &a%s'
+msg_no_funds_claim_plot: '&c%s maliyetine sahip arsayı talep edemezsiniz.'
+msg_no_funds_claim_plot_group: '&c%s altın maliyetine sahip %s arazilerini talep edemezsiniz.'
+status_town_title_peaceful: '&b(Huzurlu)'
+
+#Added in 0.95
+status_public: '&b(Halka Açık)'
+msg_days: ' gün'
+msg_comptype_public: 'Kamu Durumu'
+towny_prices_title: 'Fiyat: %s'
+towny_prices_town_nation: '&e[Yeni] &2Kasaba: &a%s &8| &2Ulus: &a%s'
+towny_prices_reclaim: '&e[Geri alma] &2Kasaba: &a%s'
+towny_prices_upkeep: '&e[Bakım Masrafı] &2Kasaba: &a%s &8| &2Ulus: &a%s'
+towny_prices_overclaimed_upkeep: '&e[Aşırı Talep Edilen Bakım Masrafı] &2Kasba: &a%s'
+towny_prices_claiming_townblock: '&e[Talep ediliyor] &2Kasaba Blok: &a%s'
+towny_prices_claiming_townblock_increase: ' &8| &2Kasaba Blok başına artış: &a+%s'
+towny_prices_claiming_outposts: '&e[Talep ediliyor] &2Karakollar: &a%s'
+towny_prices_upkeep_based_on: '&7Kasaba bakımı, &a%s'
+towny_prices_upkeep_num_plots: 'arsa sayısı.'
+towny_prices_upkeep_town_level: 'kasaba düzeyi (sakinlerin sayısı.)'
+towny_prices_overclaimed_based_on: '&8Fazla talep edilen bakım, &a%s, %s değerine bağlıdır'
+towny_prices_overclaimed_num_plots: 'aşırı talep edilen arazilerin sayısı *'
+towny_prices_overclaimed_flat_cost: 'sabit bir maliyet'
+towny_prices_townname: '&cKasaba: &b%s'
+towny_prices_price_plot: '&c    [Fiyat] &2Arsa: &a%s &8| &2Karakol: &a%s'
+towny_prices_price_shop: '&c            &2Market: &a%s &8| &2Elçilik: &a%s'
+towny_prices_taxes_plot: '&c    [Vergiler]    &2Yerleşik: &a%s &8| &2Arsa: &a%s'
+towny_prices_taxes_shop: '&c            &2Market: &a%s &8| &2Elçilik: &a%s'
+towny_prices_plots_shop: '&c    [Arsayı Ayarlama] &2Market: &a%s &8| &2Elçilik: &a%s'
+towny_prices_plots_wilds: '&c                       &2Vahşi Doğa: &a%s &8| &2Han: &a%s'
+towny_prices_plots_jail: '&c                        &2Hapishane: &a%s &8| &2Tarım: &a%s'
+towny_prices_plots_bank: '&c                        &2Banka: &a%s'
+towny_prices_nationname: '&cUlus: &6%s'
+towny_prices_nation_tax: '&c    [Vergiler] &2Kasaba: &a%s &8| &2Barış: &a%s'
+
+#Added in 0.96
+msg_town_destroyed_by_nation_tax: '&bFethedilen şehir %s ülke vergisini ödeyemedi ve düştü.'
+msg_town_destroyed_by_nation_tax_multiple: '&bAşağıdaki fethedilen şehirler ulus vergisini karşılayamadı ve düştü: '
+msg_your_town_was_exempt_from_the_nation_tax: '&bKasabanız ulus vergisinden muaftı.'
+
+#Added in 0.97
+status_perm_line_format: '&a%s = &7' # The Build = ---- Destroy = ---- seen in the status screen.
+msg_comptype_ruined: 'Harap Durumu'
+msg_comptype_bankrupt: 'İflas Durumu'
+msg_ruined: '&c(Harabe)'
+msg_bankrupt: '&c(İflas etti)'
