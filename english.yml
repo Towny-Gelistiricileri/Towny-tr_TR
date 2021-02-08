@@ -210,7 +210,7 @@ msg_accept_ally: '&bUlus %s ittifak isteğinizi kabul etti.'
 msg_ally_req_sent: '&bİttifak talebi %s ulusuna gönderildi.'
 msg_ally_request: '&b%s kasabası bir ittifak kurmak istiyor.'
 msg_unable_ally_offline: "&cHedef ulusun belediye başkanı çevrimdışı olduğu için ittifak istenemez."
-msg_unable_ally_npc: "&cHedef ulsun belediye başkanı bir NPC olduğu için ittifak yapılamaz."
+msg_unable_ally_npc: "&cHedef ulusun belediye başkanı bir NPC olduğu için ittifak yapılamaz."
 
 msg_claimed: '&2Başarıyla toprak ele geçirildi.'
 msg_unclaimed: '&2Başarıyla arsa topraklarınızdan çıkarıldı.'
