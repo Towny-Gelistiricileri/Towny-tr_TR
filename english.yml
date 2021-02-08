@@ -190,8 +190,8 @@ msg_raised_ass: '&b%s tarafından %s asistan seviyesine yükseltildi.'
 msg_lowered_to_res_by: '&bYetkiniz %s tarafından düşürüldü.'
 msg_lowered_to_res: '&b%s tarafından %s adlı oyuncunun yetkileri düşürüldü.'
 msg_invalid_name: '&bBu adlardan hiçbiri geçerli değil.'
-msg_invited_join_town: '&b%s tarafından %s adlı oyuncu kasabaya davet edildi.'
-msg_invited_join_nation: '&b%s tarafından %s adlı oyuncu ulusa davet edildi.'
+msg_invited_join_town: '&b%s adlı oyuncu %s tarafından kasabaya davet edildi.'
+msg_invited_join_nation: '&b%s kasabası %s adlı oyuncu tarafından ulusa davet edildi.'
 msg_deny_invite: '&b%s davetinizi reddetti.'
 msg_invited: '&b%s seni onlara katılmaya davet etti.'
 msg_town_online: 'Kasaba çevrimiçi'
@@ -1125,7 +1125,7 @@ bonus_townblocks: 'bonus townblock'
 
 # Added in 0.80
 nomad_sing: 'Nomad'
-msg_new_town_advice: 'kasabanınizi yarattığınız için tebrikler! kasabanıniz şu anda% s değerinde olan günlük bir bakım ödeyecek. '' /t deposit #'' kullanarak kasabanızın bankasına para yatırabilirsiniz. Bakım parasını ödemeden kasabanız silinecektir. Maliyetlerinizi istediğiniz zaman/kasaba içi fiyatları kullanarak görebilirsiniz. Sonraki günlük bakım %s olarak alındı.'
+msg_new_town_advice: 'Yeni bir kasaba kurduğunuz için tebrikler! Kasabanıniz şu anda %s değerinde olan günlük bir kesintiye uğrayacak. /t deposit # kullanarak kasabanızın bankasına para yatırabilirsiniz. Kesinti ücretini ödemediğiniz taktirde kasabanız silinecektir. Maliyetlerinizi istediğiniz zaman kasaba içi fiyatları kullanarak görebilirsiniz. Sonraki günlük kestinti %s olarak belirlendi.'
 
 # 0.81'de eklendi
 msg_err_teleport_cancelled_damage: 'Hasar ışınlanmanızı iptal etti.'
