@@ -210,7 +210,7 @@ msg_accept_ally: '&bUlus %s ittifak isteğinizi kabul etti.'
 msg_ally_req_sent: '&bİttifak talebi %s ulusuna gönderildi.'
 msg_ally_request: '&b%s kasabası bir ittifak kurmak istiyor.'
 msg_unable_ally_offline: "&cHedef ulusun belediye başkanı çevrimdışı olduğu için ittifak istenemez."
-msg_unable_ally_npc: "&cHedef ulusun belediye başkanı bir NPC olduğu için ittifak yapılamaz."
+msg_unable_ally_npc: "&cHedef ulsun belediye başkanı bir NPC olduğu için ittifak yapılamaz."
 
 msg_claimed: '&2Başarıyla toprak ele geçirildi.'
 msg_unclaimed: '&2Başarıyla arsa topraklarınızdan çıkarıldı.'
@@ -447,7 +447,7 @@ msg_enemy_war_area_defended_attacker: '&6[Savaş] &cBaşarısız saldırınız i
 msg_enemy_war_area_defended_defender: '&6[Savaş] &c%s başarısız saldırı için %s ödedi.'
 msg_enemy_war_area_defended_greater_forces: '&6[Savaş] &cBaşarısız saldırınız size %s altına mal oldu.'
 
-msg_warning_delete: '& 4 *** UYARI, %s ALTIN EKSİKLİĞİ NEDENİYLE BİR SONRAKİ YENİ GÜNDE SİLİNECEK ***'
+msg_warning_delete: '&4 *** UYARI, %s ALTIN EKSİKLİĞİ NEDENİYLE BİR SONRAKİ YENİ GÜNDE SİLİNECEK ***'
 
 # Bu mesajlar yalnızca kasaba / ulus oluşturma yalnızca yöneticilere ayarlanmışsa kullanılır
 
@@ -1072,7 +1072,7 @@ msg_err_plot_group_name_required: 'Arsa grubu adını belirtmelisiniz, /plot gro
 msg_confirmation_spigot_hover_accept: 'Kabul etmek için tıklayın'
 msg_confirmation_spigot_hover_cancel: 'İptal etmek için tıklayın'
 msg_confirmation_spigot_click_accept: '%s düğmesini tıklayın veya %s yazın'
-msg_confirmation_spigot_click_cancel: '%s''yi tıklayın veya %s yazın'
+msg_confirmation_spigot_click_cancel: '%s''yi tıklayın vey a%s yazın'
 msg_you_cannot_kick_yourself: 'Kendinizi atamazsınız.'
 msg_you_cannot_kick_this_resident: '%s''yi atamazsın, onlar belediye başkanı veya yardımcıdır.'
 
