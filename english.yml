@@ -843,7 +843,7 @@ adjustable: 'Ayarlanabilir'
 
 # 0.48'de eklendi:
 msg_no_funds_new_town2: '&c%s, buraya yeni bir kasaba yerleştirmezsin, gerekli altın %s.'
-msg_no_funds_new_nation2: '&c%s, buraya yeni bir ulus yerleştirmezsin, gerekli altın %s.'
+msg_no_funds_new_nation2: '&cKasaba yeni ulus masraflarını karşılayamaz, gerekli altın %s.'
 msg_no_funds_claim2: '&cKasabanız %s maliyetiyle %s arsayı talep edemez. /t deposit %s komutunu kullanarak kasaba bankasına %s ekleyin'
 msg_err_cant_afford_blocks2: '&cKasabanız %s maliyetiyle %s arsayı talep edemez. /t deposit %s komutunu kullanarak kasaba bankasına %s ekleyin'
 msg_err_not_enough_variables: '&cYeterli değişken yok: '
